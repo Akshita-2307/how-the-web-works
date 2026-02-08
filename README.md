@@ -31,6 +31,26 @@ A 500 error occurs due to a server-side issue, which means the server is facing 
 # Why a 200 Status Code Does Not Mean a Perfect Website
 A 200 status code means that the server successfully received and processed the request. However, it only confirms successful communication and does not guarantee that the website is free of bugs, performance issues, security problems, or incorrect data.
 
+# What a Browser Does
+After receiving HTML from the server, the browser parses the HTML document to understand its structure. It then builds a Document Object Model (DOM), which represents the webpage in a structured form so that it can be rendered and updated on the screen.
+
+# Browser Rendering Process (High Level)
+The browser processes a webpage in the following high-level steps:-
+-Parses HTML to construct the DOM
+-Applies CSS rules to style the elements
+-Executes JavaScript where required
+-Renders the final output on the screen
+This entire process allows the browser to convert code into an interactive webpage.
+
+# Developer Tools Overview
+Browser Developer Tools help developers inspect, understand, and debug how a webpage works in real time.
+## Elements Tab
+The Elements tab is used to inspect the HTML structure of a webpage and view how CSS styles are applied. It is mainly used to debug layout and styling issues by modifying elements and styles directly in the browser.
+## Network Tab
+The Network tab shows all the requests made by the browser to load a webpage. It helps in inspecting files, API requests, loading time, and HTTP status codes during page load or interactions.
+## Application Tab
+The Application tab is used to inspect browser storage such as cookies, local storage, and session storage. This is useful for understanding how data is stored on the client side, especially during login or authentication-related features.
+
 
 
 
