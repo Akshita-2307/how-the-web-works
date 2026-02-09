@@ -1,4 +1,4 @@
-# How the web works
+# Day 1 - How the web works
 # What is the Internet?
 The internet is a global network of computers that are connected to each other to share information. It allows devices to communicate using standard rules and protocols.
 
@@ -12,7 +12,7 @@ The browser acts as a bridge between the client and the server. It sends request
 # What Happens When You Type a URL?
 When a user types a URL in the browser, the browser sends a request to the server. The server processes this request and sends the required data back to the browser. The browser then displays the website to the user. This process follows the request–response model.
 
-# DNS (Domain Name System)
+# Day 2 - DNS (Domain Name System)
 Every website has a unique technical address called an IP address, which is a numerical value used by computers to identify servers. Since it is difficult for humans to remember numerical IP addresses, domain names like google.com are used instead. DNS converts these human-readable domain names into their corresponding IP addresses so that the browser can locate and communicate with the correct server.
 
 # HTTP Protocol
@@ -31,7 +31,7 @@ A 500 error occurs due to a server-side issue, which means the server is facing 
 # Why a 200 Status Code Does Not Mean a Perfect Website
 A 200 status code means that the server successfully received and processed the request. However, it only confirms successful communication and does not guarantee that the website is free of bugs, performance issues, security problems, or incorrect data.
 
-# What a Browser Does
+# Day 3 - What a Browser Does
 After receiving HTML from the server, the browser parses the HTML document to understand its structure. It then builds a Document Object Model (DOM), which represents the webpage in a structured form so that it can be rendered and updated on the screen.
 
 # Browser Rendering Process (High Level)
@@ -50,6 +50,28 @@ The Elements tab is used to inspect the HTML structure of a webpage and view how
 The Network tab shows all the requests made by the browser to load a webpage. It helps in inspecting files, API requests, loading time, and HTTP status codes during page load or interactions.
 ## Application Tab
 The Application tab is used to inspect browser storage such as cookies, local storage, and session storage. This is useful for understanding how data is stored on the client side, especially during login or authentication-related features.
+
+# Day 4 – HTML Basics
+HTML is responsible for creating the basic structure of a webpage. Using HTML, I learned how different tags define and organize content that is displayed by the browser.
+
+### HTML Tags Practiced
+- `<head>` – Contains metadata and information about the page  
+- `<body>` – Contains all visible content of the webpage  
+- `<title>` – Defines the title shown in the browser tab  
+- `<h1>` – Main heading of the page  
+- `<p>` – Paragraph text  
+- `<a>` – Used to create links  
+- `<img>` – Used to display images with alternative text  
+- `<ol>`, `<ul>`, `<dl>` – Used to create ordered, unordered, and description lists  
+- `<table>` and `<caption>` – Used to display structured tabular data  
+
+### HTML Practice Work
+Created a personal HTML profile page using only HTML to practice page structure, proper nesting of elements, and usage of lists and tables without applying CSS or JavaScript.
+
+
+
+
+
 
 
 
