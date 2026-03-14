@@ -1,153 +1,177 @@
 # Web Development Learning Journey
 
-This repository documents my structured journey toward becoming a full-stack web developer.  
-Each section represents concepts studied and practiced during daily learning sessions.
+This repository documents a structured journey toward becoming a full-stack web developer. Each section records concepts studied and practiced during daily learning sessions.
 
 ---
 
 ## Table of Contents
 
-- Day 1 – How the Web Works
-- Day 2 – HTTP, HTTPS, DNS and Status Codes
-- Day 3 – Browser Rendering and Developer Tools
-- Day 4 – HTML Fundamentals
-- Day 5 – HTML Concepts and Web Performance
+- [Day 1 – How the Web Works](#day-1--how-the-web-works)
+- [Day 2 – HTTP, HTTPS, DNS and Status Codes](#day-2--http-https-dns-and-status-codes)
+- [Day 3 – Browser Rendering and Developer Tools](#day-3--browser-rendering-and-developer-tools)
+- [Day 4 – HTML Fundamentals](#day-4--html-basics)
+- [Day 5 – HTML Concepts and Web Performance](#day-5--html-concepts-and-web-performance)
 
+---
 
-# Day 1 - How the web works
-# What is the Internet?
-The internet is a global network of computers that are connected to each other to share information. It allows devices to communicate using standard rules and protocols.
+# Day 1 – How the Web Works
 
-# Client and Server
-A client is the user’s device or browser that requests information.  
-A server is a powerful computer that stores websites and responds to client requests.
+## What is the Internet?
 
-# Role of Browser
-The browser acts as a bridge between the client and the server. It sends requests to the server and displays the response in a user-friendly way.
+The internet is a global network of computers connected to each other to share information. It allows devices to communicate using standardized protocols.
 
-# What Happens When You Type a URL?
-When a user types a URL in the browser, the browser sends a request to the server. The server processes this request and sends the required data back to the browser. The browser then displays the website to the user. This process follows the request–response model.
+## Client and Server
 
-# Day 2 - DNS (Domain Name System)
-Every website has a unique technical address called an IP address, which is a numerical value used by computers to identify servers. Since it is difficult for humans to remember numerical IP addresses, domain names like google.com are used instead. DNS converts these human-readable domain names into their corresponding IP addresses so that the browser can locate and communicate with the correct server.
+- **Client** – The user’s device or browser that requests information.
+- **Server** – A powerful computer that stores websites and responds to client requests.
 
-# HTTP Protocol
-HTTP is responsible for transferring data between the browser and the server. It defines a standard set of rules that specify how requests are sent from the browser and how responses are returned by the server. HTTP does not store data or encrypt it; it only ensures that both the browser and server understand the format and meaning of the communication.
+## Role of the Browser
 
-# HTTPS
-HTTPS protects sensitive information from being read or modified by unauthorized users while data is being transmitted over a network. It prevents attackers on the same network from intercepting information such as passwords, form data, or session details between the client and the server.
+A browser acts as the bridge between the client and the server. It sends requests to the server and displays responses in a user-friendly format.
 
-# HTTP Status Codes
-404 Error:
-A 404 error occurs due to a client-side issue where the client requests a resource using an incorrect or invalid URL. As a result, the server is unable to find and deliver the requested resource.
+## What Happens When You Type a URL?
 
-500 Error:
-A 500 error occurs due to a server-side issue, which means the server is facing an internal problem and is unable to process the request at that moment.
+When a user enters a URL in the browser, the browser sends a request to the server. The server processes the request and sends the required data back to the browser. The browser then renders and displays the webpage.
 
-# Why a 200 Status Code Does Not Mean a Perfect Website
-A 200 status code means that the server successfully received and processed the request. However, it only confirms successful communication and does not guarantee that the website is free of bugs, performance issues, security problems, or incorrect data.
+---
 
-# Day 3 - What a Browser Does
-After receiving HTML from the server, the browser parses the HTML document to understand its structure. It then builds a Document Object Model (DOM), which represents the webpage in a structured form so that it can be rendered and updated on the screen.
+# Day 2 – HTTP, HTTPS, DNS and Status Codes
 
-# Browser Rendering Process (High Level)
-The browser processes a webpage in the following high-level steps:-
--Parses HTML to construct the DOM
--Applies CSS rules to style the elements
--Executes JavaScript where required
--Renders the final output on the screen
-This entire process allows the browser to convert code into an interactive webpage.
+## DNS (Domain Name System)
 
-# Developer Tools Overview
-Browser Developer Tools help developers inspect, understand, and debug how a webpage works in real time.
-## Elements Tab
-The Elements tab is used to inspect the HTML structure of a webpage and view how CSS styles are applied. It is mainly used to debug layout and styling issues by modifying elements and styles directly in the browser.
-## Network Tab
-The Network tab shows all the requests made by the browser to load a webpage. It helps in inspecting files, API requests, loading time, and HTTP status codes during page load or interactions.
-## Application Tab
-The Application tab is used to inspect browser storage such as cookies, local storage, and session storage. This is useful for understanding how data is stored on the client side, especially during login or authentication-related features.
+Every website has a unique technical address called an IP address. Since numerical IP addresses are difficult for humans to remember, domain names such as `google.com` are used. DNS converts these human-readable domain names into their corresponding IP addresses.
+
+## HTTP Protocol
+
+HTTP is responsible for transferring data between the browser and the server. It defines a set of rules that specify how requests are sent and how responses are returned.
+
+## HTTPS
+
+HTTPS protects sensitive information while it is transmitted over the network by encrypting communication between the browser and the server.
+
+## HTTP Status Codes
+
+- **404 Error** – Occurs when the requested resource cannot be found.
+- **500 Error** – Indicates that the server encountered an internal error.
+- **200 Status Code** – Indicates that the request was successfully processed.
+
+A `200` status code only confirms successful communication and does not guarantee that the website is free of bugs or performance issues.
+
+---
+
+# Day 3 – Browser Rendering and Developer Tools
+
+## What a Browser Does
+
+After receiving HTML from the server, the browser parses the HTML document and constructs the **Document Object Model (DOM)**.
+
+## Browser Rendering Process
+
+The browser processes a webpage in the following steps:
+
+- Parses HTML to construct the DOM
+- Applies CSS rules to style elements
+- Executes JavaScript
+- Renders the final page on the screen
+
+## Developer Tools
+
+Developer Tools allow developers to inspect and debug webpages.
+
+### Elements Tab
+
+Used to inspect HTML structure and debug CSS layout issues.
+
+### Network Tab
+
+Displays all requests made by the browser and helps analyze loading behavior and status codes.
+
+### Application Tab
+
+Allows inspection of cookies, local storage, and session storage.
+
+---
 
 # Day 4 – HTML Basics
-HTML is responsible for creating the basic structure of a webpage. Using HTML, I learned how different tags define and organize content that is displayed by the browser.
 
-### HTML Tags Practiced
-- `<head>` – Contains metadata and information about the page  
-- `<body>` – Contains all visible content of the webpage  
-- `<title>` – Defines the title shown in the browser tab  
-- `<h1>` – Main heading of the page  
-- `<p>` – Paragraph text  
-- `<a>` – Used to create links  
-- `<img>` – Used to display images with alternative text  
-- `<ol>`, `<ul>`, `<dl>` – Used to create ordered, unordered, and description lists  
-- `<table>` and `<caption>` – Used to display structured tabular data  
+HTML provides the basic structure of webpages.
 
-### HTML Practice Work
-Created a personal HTML profile page using only HTML to practice page structure, proper nesting of elements, and usage of lists and tables without applying CSS or JavaScript.
+## HTML Tags Practiced
+
+- `<head>` – Contains metadata
+- `<body>` – Contains visible page content
+- `<title>` – Defines the browser tab title
+- `<h1>` – Main heading
+- `<p>` – Paragraph text
+- `<a>` – Hyperlinks
+- `<img>` – Images
+- `<ol>`, `<ul>`, `<dl>` – Lists
+- `<table>` and `<caption>` – Tabular data
+
+## Practice Work
+
+A personal HTML profile page was created to practice structure, nesting of elements, and the use of lists and tables without CSS or JavaScript.
+
+---
 
 # Day 5 – HTML Concepts and Web Performance
 
-This section documents key HTML concepts and web performance metrics relevant to building structured, accessible, and performant web pages.
-
 ## Core Web Vitals
 
-Core Web Vitals are performance metrics used to evaluate user experience on web pages.
+Core Web Vitals measure user experience performance.
 
-- **LCP (Largest Contentful Paint)** – Measures the time required for the largest visible element of a webpage to load.
-- **CLS (Cumulative Layout Shift)** – Measures the amount of unexpected layout movement that occurs while a page is loading.
-- **FID (First Input Delay)** – Measures the delay between the user’s first interaction with a webpage and the moment the browser begins processing that interaction.
+- **LCP (Largest Contentful Paint)** – Measures how long it takes for the largest visible element to load.
+- **CLS (Cumulative Layout Shift)** – Measures unexpected layout movement during page load.
+- **FID (First Input Delay)** – Measures delay between the user's first interaction and the browser’s response.
 
 ## Lighthouse Report
 
-The **Lighthouse report** is a tool provided by Google that evaluates the quality, performance, and overall user experience of a webpage. It is commonly used by developers to analyze how a webpage performs and identify areas that can be improved.
+The Lighthouse report is a Google tool used to evaluate webpage performance, accessibility, SEO, and overall user experience.
 
 ## HTML Forms
 
-The **`<form>`** element is used to collect input from users on a webpage. Forms allow the submission of data through various input elements such as text fields, checkboxes, and radio buttons.
+The `<form>` element collects user input using elements such as text fields, checkboxes, and radio buttons.
 
-## Block-Level and Inline Elements
+## Block-Level vs Inline Elements
 
-HTML elements can be categorized based on how they are displayed on a webpage.
+**Block elements**
 
-- **Block-level elements** start on a new line and occupy the full width of their container by default.  
-  Examples include `<div>` and `<p>`.
+- Start on a new line
+- Take full width
 
-- **Inline elements** do not start on a new line and only occupy the width required by their content.  
-  An example is the `<a>` element.
+Examples: `<div>`, `<p>`
+
+**Inline elements**
+
+- Do not start on a new line
+- Occupy only necessary width
+
+Example: `<a>`
 
 ## ID and Class
 
-- **`id`** represents a unique identifier assigned to a single HTML element within a webpage.
-- **`class`** is used to group multiple HTML elements under a common identifier and can be applied to more than one element.
+- `id` – Unique identifier for a single element
+- `class` – Used to group multiple elements
 
 ## Media Elements
 
-HTML provides elements for embedding multimedia content directly into webpages.
-
-- The **`<video>`** element is used to embed video content.
-- The **`<audio>`** element is used to embed audio content.
+- `<video>` – Embeds video content
+- `<audio>` – Embeds audio content
 
 ## Iframe
 
-The **`<iframe>`** element is used to embed another HTML page or external content inside the current webpage. Common attributes associated with this element include `src`, `width`, and `height`.
+The `<iframe>` element embeds external webpages or content within the current webpage.
 
 ## SVG
 
-**SVG (Scalable Vector Graphics)** is used to create scalable graphics that maintain visual quality regardless of resizing. Attributes such as `width`, `height`, and `stroke` are commonly used when defining SVG graphics.
+SVG (Scalable Vector Graphics) allows the creation of scalable graphics that retain quality when resized.
 
 ## Semantic HTML
 
-Semantic HTML elements provide meaningful structure to web pages and improve accessibility and search engine optimization.
+Semantic elements provide meaningful structure to webpages.
 
-Examples include:
+Examples:
 
-- **`<header>`** – Represents the top section of a webpage.
-- **`<main>`** – Represents the primary content area of a webpage.
-- **`<footer>`** – Represents the bottom section of a webpage and typically contains copyright or additional informational content.
-
-
-
-
-
-
-
-
+- `<header>` – Top section of a webpage
+- `<main>` – Primary content area
+- `<footer>` – Bottom section of a webpage
