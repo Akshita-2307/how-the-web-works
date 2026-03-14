@@ -68,6 +68,65 @@ HTML is responsible for creating the basic structure of a webpage. Using HTML, I
 ### HTML Practice Work
 Created a personal HTML profile page using only HTML to practice page structure, proper nesting of elements, and usage of lists and tables without applying CSS or JavaScript.
 
+# Day 5 – HTML Concepts and Web Performance
+
+This section documents key HTML concepts and web performance metrics relevant to building structured, accessible, and performant web pages.
+
+## Core Web Vitals
+
+Core Web Vitals are performance metrics used to evaluate user experience on web pages.
+
+- **LCP (Largest Contentful Paint)** – Measures the time required for the largest visible element of a webpage to load.
+- **CLS (Cumulative Layout Shift)** – Measures the amount of unexpected layout movement that occurs while a page is loading.
+- **FID (First Input Delay)** – Measures the delay between the user’s first interaction with a webpage and the moment the browser begins processing that interaction.
+
+## Lighthouse Report
+
+The **Lighthouse report** is a tool provided by Google that evaluates the quality, performance, and overall user experience of a webpage. It is commonly used by developers to analyze how a webpage performs and identify areas that can be improved.
+
+## HTML Forms
+
+The **`<form>`** element is used to collect input from users on a webpage. Forms allow the submission of data through various input elements such as text fields, checkboxes, and radio buttons.
+
+## Block-Level and Inline Elements
+
+HTML elements can be categorized based on how they are displayed on a webpage.
+
+- **Block-level elements** start on a new line and occupy the full width of their container by default.  
+  Examples include `<div>` and `<p>`.
+
+- **Inline elements** do not start on a new line and only occupy the width required by their content.  
+  An example is the `<a>` element.
+
+## ID and Class
+
+- **`id`** represents a unique identifier assigned to a single HTML element within a webpage.
+- **`class`** is used to group multiple HTML elements under a common identifier and can be applied to more than one element.
+
+## Media Elements
+
+HTML provides elements for embedding multimedia content directly into webpages.
+
+- The **`<video>`** element is used to embed video content.
+- The **`<audio>`** element is used to embed audio content.
+
+## Iframe
+
+The **`<iframe>`** element is used to embed another HTML page or external content inside the current webpage. Common attributes associated with this element include `src`, `width`, and `height`.
+
+## SVG
+
+**SVG (Scalable Vector Graphics)** is used to create scalable graphics that maintain visual quality regardless of resizing. Attributes such as `width`, `height`, and `stroke` are commonly used when defining SVG graphics.
+
+## Semantic HTML
+
+Semantic HTML elements provide meaningful structure to web pages and improve accessibility and search engine optimization.
+
+Examples include:
+
+- **`<header>`** – Represents the top section of a webpage.
+- **`<main>`** – Represents the primary content area of a webpage.
+- **`<footer>`** – Represents the bottom section of a webpage and typically contains copyright or additional informational content.
 
 
 
