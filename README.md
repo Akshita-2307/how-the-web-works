@@ -1,3 +1,19 @@
+# Web Development Learning Journey
+
+This repository documents my structured journey toward becoming a full-stack web developer.  
+Each section represents concepts studied and practiced during daily learning sessions.
+
+---
+
+## Table of Contents
+
+- Day 1 – How the Web Works
+- Day 2 – HTTP, HTTPS, DNS and Status Codes
+- Day 3 – Browser Rendering and Developer Tools
+- Day 4 – HTML Fundamentals
+- Day 5 – HTML Concepts and Web Performance
+
+
 # Day 1 - How the web works
 # What is the Internet?
 The internet is a global network of computers that are connected to each other to share information. It allows devices to communicate using standard rules and protocols.
