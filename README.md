@@ -6,15 +6,12 @@ This repository documents a structured journey toward becoming a full-stack web 
 
 ## Table of Contents
 
-### Web Fundamentals
-- Day 1 – How the Web Works
-- Day 2 – HTTP, HTTPS, DNS and Status Codes
-- Day 3 – Browser Rendering and Developer Tools
-
-### HTML
-- Day 4 – HTML Basics
-- Day 5 – HTML Concepts and Web Performance
-- Day 6 – HTML Mini Project
+- [Day 1 – How the Web Works](#day-1--how-the-web-works)
+- [Day 2 – HTTP, HTTPS, DNS and Status Codes](#day-2--http-https-dns-and-status-codes)
+- [Day 3 – Browser Rendering and Developer Tools](#day-3--browser-rendering-and-developer-tools)
+- [Day 4 – HTML Basics](#day-4--html-basics)
+- [Day 5 – HTML Concepts and Web Performance](#day-5--html-concepts-and-web-performance)
+- [Day 6 – HTML Mini Project](#day-6--html-mini-project)
 
 # Day 1 – How the Web Works
 
