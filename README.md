@@ -11,6 +11,7 @@ This repository documents a structured journey toward becoming a full-stack web 
 - [Day 3 – Browser Rendering and Developer Tools](#day-3--browser-rendering-and-developer-tools)
 - [Day 4 – HTML Fundamentals](#day-4--html-basics)
 - [Day 5 – HTML Concepts and Web Performance](#day-5--html-concepts-and-web-performance)
+- [Day 6 – HTML Mini Project](#day-6--html-mini-project)
 
 ---
 
