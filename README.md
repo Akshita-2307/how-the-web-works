@@ -179,3 +179,7 @@ Examples:
 ## Practice Work
 
 Enhanced the existing HTML profile page by adding a contact form, embedded media (video and audio), an iframe for external content, and an SVG graphic to practice advanced HTML elements.
+
+## Day 6 – HTML Mini Project
+
+Created a personal portfolio landing page using HTML. The page includes semantic structure, navigation links, lists, tables, embedded media, and a contact form to practice combining multiple HTML concepts into a single webpage.
