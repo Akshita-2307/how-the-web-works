@@ -176,6 +176,6 @@ Examples:
 - `<main>` – Primary content area
 - `<footer>` – Bottom section of a webpage
 
-##Practice Work
+## Practice Work
 
 Enhanced the existing HTML profile page by adding a contact form, embedded media (video and audio), an iframe for external content, and an SVG graphic to practice advanced HTML elements.
