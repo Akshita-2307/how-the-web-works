@@ -217,5 +217,9 @@ Explored pseudo selectors used to apply styles based on element states and struc
 - `a:active` – Styles elements when they are clicked
 - `p:first-child` – Styles the first child element inside a parent element
 
+### Practice Work
+
+Applied inline, internal, and external CSS while styling the portfolio page and experimented with multiple selector types to control element appearance and interaction behavior.
+
 
 
