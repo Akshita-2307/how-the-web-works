@@ -12,6 +12,7 @@ This repository documents a structured journey toward becoming a full-stack web 
 - [Day 4 – HTML Basics](#day-4--html-basics)
 - [Day 5 – HTML Concepts and Web Performance](#day-5--html-concepts-and-web-performance)
 - [Day 6 – HTML Mini Project](#day-6--html-mini-project)
+- [Day 7 – Introduction to CSS and Selectors](#day-7--introduction-to-css-and-selectors)
 
 # Day 1 – How the Web Works
 
@@ -182,3 +183,25 @@ Enhanced the existing HTML profile page by adding a contact form, embedded media
 ## Day 6 – HTML Mini Project
 
 Created a personal portfolio landing page using HTML. The page includes semantic structure, navigation links, lists, tables, embedded media, and a contact form to practice combining multiple HTML concepts into a single webpage.
+
+## Day 7 – Introduction to CSS and Selectors
+
+Introduced CSS and explored different methods of applying styles to HTML documents, including inline CSS, internal CSS, and external CSS.
+
+Practiced writing CSS using the standard syntax:
+
+selector {
+  property: value;
+}
+
+Studied commonly used selectors:
+
+- Element selector – applies styles to all elements of a specific type
+- Class selector – applies styles to elements sharing the same class name
+- ID selector – applies styles to a uniquely identified element
+- Child selector – selects elements that are direct children of another element
+- Descendant selector – selects elements that exist anywhere inside another element
+- Universal selector – applies styles to all elements on a webpage
+- Pseudo selectors – apply styles based on element states such as visited links
+
+
