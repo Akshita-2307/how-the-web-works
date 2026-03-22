@@ -12,7 +12,7 @@ This repository documents a structured journey toward becoming a full-stack web 
 - [Day 4 – HTML Basics](#day-4--html-basics)
 - [Day 5 – HTML Concepts and Web Performance](#day-5--html-concepts-and-web-performance)
 - [Day 6 – HTML Mini Project](#day-6--html-mini-project)
-- [Day 7 – Introduction to CSS and Selectors](#day-7--introduction-to-css-and-selectors)
+- [Day 7 – Introduction to CSS and Selectors](#day-7--CSS-Application-Methods-and-Selectors)
 
 # Day 1 – How the Web Works
 
@@ -184,24 +184,38 @@ Enhanced the existing HTML profile page by adding a contact form, embedded media
 
 Created a personal portfolio landing page using HTML. The page includes semantic structure, navigation links, lists, tables, embedded media, and a contact form to practice combining multiple HTML concepts into a single webpage.
 
-## Day 7 – Introduction to CSS and Selectors
+## Day 7 – CSS Application Methods and Selectors
 
-Introduced CSS and explored different methods of applying styles to HTML documents, including inline CSS, internal CSS, and external CSS.
+Introduced CSS and explored different methods of applying styles to HTML documents.
 
-Practiced writing CSS using the standard syntax:
+### Types of CSS
 
-selector {
-  property: value;
-}
+Practiced three approaches for styling webpages:
 
-Studied commonly used selectors:
+- **Inline CSS** – Applied styles directly inside HTML elements using the `style` attribute
+- **Internal CSS** – Applied styles using the `<style>` tag within the `<head>` section of the document
+- **External CSS** – Applied styles using a separate stylesheet linked to the HTML document with the `<link>` element
 
-- Element selector – applies styles to all elements of a specific type
-- Class selector – applies styles to elements sharing the same class name
-- ID selector – applies styles to a uniquely identified element
-- Child selector – selects elements that are direct children of another element
-- Descendant selector – selects elements that exist anywhere inside another element
-- Universal selector – applies styles to all elements on a webpage
-- Pseudo selectors – apply styles based on element states such as visited links
+### CSS Selectors
+
+Studied commonly used selectors for targeting HTML elements:
+
+- **Element selector** – Targets all elements of a specific type (e.g., `p`)
+- **Class selector** – Targets elements sharing the same class name (e.g., `.text`)
+- **ID selector** – Targets a uniquely identified element (e.g., `#header`)
+- **Child selector** – Targets elements that are direct children of another element (e.g., `div > p`)
+- **Descendant selector** – Targets elements located anywhere inside another element (e.g., `div p`)
+- **Universal selector** – Targets all elements on the webpage (e.g., `*`)
+
+### Pseudo Selectors
+
+Explored pseudo selectors used to apply styles based on element states and structure:
+
+- `a:link` – Styles unvisited links
+- `a:visited` – Styles visited links
+- `a:hover` – Styles elements when the mouse pointer moves over them
+- `a:active` – Styles elements when they are clicked
+- `p:first-child` – Styles the first child element inside a parent element
+
 
 
