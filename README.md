@@ -13,6 +13,7 @@ This repository documents a structured journey toward becoming a full-stack web 
 - [Day 5 – HTML Concepts and Web Performance](#day-5--html-concepts-and-web-performance)
 - [Day 6 – HTML Mini Project](#day-6--html-mini-project)
 - [Day 7 – Introduction to CSS and Selectors](#day-7--CSS-Application-Methods-and-Selectors)
+- [Day 8 – CSS Box Model](#day-8--css-box-model)
 
 # Day 1 – How the Web Works
 
