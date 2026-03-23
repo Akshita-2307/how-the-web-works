@@ -221,5 +221,47 @@ Explored pseudo selectors used to apply styles based on element states and struc
 
 Applied inline, internal, and external CSS while styling the portfolio page and experimented with multiple selector types to control element appearance and interaction behavior.
 
+## Day 8 – CSS Box Model
+
+Learned the structure of how spacing and sizing work in CSS using the Box Model.
+
+### CSS Box Model Components
+Every HTML element consists of:
+
+- Content → actual text/image inside the element
+- Padding → space between content and border
+- Border → wraps padding and content
+- Margin → outer space between elements
+
+### Width & Height Behavior
+- Width and height apply only to the content area by default
+- Padding and border increase total element size unless box-sizing is changed
+
+### Margin Collapse
+Learned that vertical margins between block elements can collapse into a single margin instead of adding together.
+
+Example:
+- If element A has margin-bottom: 20px
+- and element B has margin-top: 30px
+Final spacing becomes 30px (not 50px)
+
+### box-sizing Property
+Studied difference between:
+
+content-box (default):
+- width = content only
+- padding and border added outside width
+
+border-box:
+- width includes content + padding + border
+- makes layout easier and predictable
+
+Example:
+
+```css
+* {
+  box-sizing: border-box;
+}
+
 
 
