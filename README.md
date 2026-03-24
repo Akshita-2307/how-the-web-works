@@ -264,5 +264,50 @@ Example:
   box-sizing: border-box;
 }
 
+## Day 9 – CSS Fonts, Text Styling, and Colors
 
+Explored CSS font properties, text formatting techniques, and different methods of applying colors to improve the readability and visual presentation of webpages.
 
+### Font Properties
+
+Studied commonly used font-related properties:
+
+- **font-family** – Defines the typeface applied to text
+- **fallback fonts** – Backup fonts used when the primary font is unavailable
+- **font-style** – Controls italic or normal text appearance
+- **font-weight** – Adjusts thickness of text characters
+- **font-size** – Defines the size of text
+
+Also explored methods for importing custom fonts into webpages.
+
+### Text Formatting Properties
+
+Practiced styling and structuring text using:
+
+- **line-height** – Controls vertical spacing between lines of text
+- **letter-spacing** – Adjusts spacing between characters
+- **text-decoration** – Adds underline, overline, or line-through effects
+- **text-decoration-color** – Changes decoration color
+- **text-decoration-style** – Applies styles such as solid, dotted, or dashed decorations
+- **text-decoration-thickness** – Controls thickness of text decoration lines
+- **text-transform** – Converts text to uppercase, lowercase, or capitalized format
+- **text-indent** – Adds indentation to the first line of text
+- **text-align** – Controls horizontal alignment of text
+
+Explored text overflow handling techniques:
+
+- **text-overflow** – Controls how hidden overflow text is displayed
+- **word-break** – Controls word wrapping behavior inside containers
+
+### CSS Color Systems
+
+Studied different ways of applying colors in CSS:
+
+- **Color keywords** (e.g., red, blue, green)
+- **Hex color codes** (e.g., #ff5733)
+- **RGB values** (e.g., rgb(255, 0, 0))
+- **RGBA values** (adds transparency using alpha channel)
+- **HSL values** (hue, saturation, lightness)
+- **HSLA values** (HSL with transparency)
+
+Applied font styling and color properties to improve typography and visual structure of the portfolio webpage.
