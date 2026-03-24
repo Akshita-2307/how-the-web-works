@@ -14,6 +14,7 @@ This repository documents a structured journey toward becoming a full-stack web 
 - [Day 6 – HTML Mini Project](#day-6--html-mini-project)
 - [Day 7 – Introduction to CSS and Selectors](#day-7--CSS-Application-Methods-and-Selectors)
 - [Day 8 – CSS Box Model](#day-8--css-box-model)
+  [Day 9 – CSS Fonts, Text Styling, and Colors](#day-9--css-fonts-text-styling-and-colors)
 
 # Day 1 – How the Web Works
 
@@ -256,13 +257,6 @@ content-box (default):
 border-box:
 - width includes content + padding + border
 - makes layout easier and predictable
-
-Example:
-
-```css
-* {
-  box-sizing: border-box;
-}
 
 ## Day 9 – CSS Fonts, Text Styling, and Colors
 
