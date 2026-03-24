@@ -304,4 +304,4 @@ Studied different ways of applying colors in CSS:
 - **HSL values** (hue, saturation, lightness)
 - **HSLA values** (HSL with transparency)
 
-Applied font styling and color properties to improve typography and visual structure of the portfolio webpage.
+
