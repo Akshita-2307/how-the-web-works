@@ -15,6 +15,7 @@ This repository documents a structured journey toward becoming a full-stack web 
 - [Day 7 – Introduction to CSS and Selectors](#day-7--CSS-Application-Methods-and-Selectors)
 - [Day 8 – CSS Box Model](#day-8--css-box-model)
 - [Day 9 – CSS Fonts, Text Styling, and Colors](#day-9--css-fonts-text-styling-and-colors)
+- [Day 10 – CSS Cascade Algorithm and Specificity](#day-10--css-cascade-algorithm-and-specificity)
 
 # Day 1 – How the Web Works
 
@@ -303,5 +304,61 @@ Studied different ways of applying colors in CSS:
 - **RGBA values** (adds transparency using alpha channel)
 - **HSL values** (hue, saturation, lightness)
 - **HSLA values** (HSL with transparency)
+
+  ## Day 10 – CSS Cascade Algorithm and Specificity
+
+Studied how CSS determines which styles are applied when multiple rules target the same element. Explored the cascade algorithm, rule priority order, and specificity calculation.
+
+### CSS Cascade Algorithm
+
+The cascade algorithm defines how browsers resolve conflicts between multiple CSS rules applied to the same element. The final style is determined based on:
+
+- Origin of styles
+- Importance of declarations
+- Selector specificity
+- Position in order of appearance
+
+### Order of Appearance
+
+When selectors have equal specificity and importance, the rule written later in the stylesheet overrides earlier rules.
+
+### Origin of Styles
+
+CSS rules can come from different sources:
+
+- Browser default styles
+- External stylesheets
+- Internal stylesheets
+- Inline styles
+
+Inline styles generally have higher priority than internal and external styles.
+
+### Importance
+
+Declarations marked with `!important` override normal CSS rules regardless of specificity (except when another `!important` rule with higher specificity exists).
+
+
+### Specificity
+
+Specificity determines which selector has higher priority when multiple selectors target the same element.
+
+Specificity priority order:
+
+- Inline styles
+- ID selectors
+- Class selectors, attribute selectors, pseudo-classes
+- Element selectors and pseudo-elements
+
+### Specificity Calculation
+
+Specificity is calculated by counting selector types in the following order:
+
+- Inline styles → highest priority
+- Number of ID selectors
+- Number of class selectors and pseudo-classes
+- Number of element selectors
+
+Selectors with higher specificity override selectors with lower specificity when conflicts occur.
+
 
 
