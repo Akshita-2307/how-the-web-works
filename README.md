@@ -305,7 +305,7 @@ Studied different ways of applying colors in CSS:
 - **HSL values** (hue, saturation, lightness)
 - **HSLA values** (HSL with transparency)
 
-  ## Day 10 – CSS Cascade Algorithm and Specificity
+## Day 10 – CSS Cascade Algorithm and Specificity
 
 Studied how CSS determines which styles are applied when multiple rules target the same element. Explored the cascade algorithm, rule priority order, and specificity calculation.
 
