@@ -16,6 +16,7 @@ This repository documents a structured journey toward becoming a full-stack web 
 - [Day 8 – CSS Box Model](#day-8--css-box-model)
 - [Day 9 – CSS Fonts, Text Styling, and Colors](#day-9--css-fonts-text-styling-and-colors)
 - [Day 10 – CSS Cascade Algorithm and Specificity](#day-10--css-cascade-algorithm-and-specificity)
+- [Day 11 – CSS Sizing Units and Display Properties](#day-11--css-sizing-units-and-display-properties)
 
 # Day 1 – How the Web Works
 
