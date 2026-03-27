@@ -360,5 +360,53 @@ Specificity is calculated by counting selector types in the following order:
 
 Selectors with higher specificity override selectors with lower specificity when conflicts occur.
 
+## Day 11 – CSS Sizing Units and Display Properties
+
+Explored CSS sizing units and display properties used to control element dimensions and layout behavior across different screen sizes.
+
+### CSS Sizing Units
+
+Studied commonly used relative and viewport-based sizing units:
+
+- **vw (viewport width)** – Sets size relative to the width of the viewport
+- **vh (viewport height)** – Sets size relative to the height of the viewport
+- **vmin** – Uses the smaller value between viewport width and height
+- **vmax** – Uses the larger value between viewport width and height
+- **rem** – Sets size relative to the root (`html`) font size
+- **em** – Sets size relative to the font size of the parent element
+
+These units help create responsive layouts that adapt to different screen dimensions.
+
+### Minimum and Maximum Size Properties
+
+- **min-width** – Defines the minimum allowed width of an element
+- **max-width** – Defines the maximum allowed width of an element
+- **min-height** – Defines the minimum allowed height of an element
+- **max-height** – Defines the maximum allowed height of an element
+
+### Display Properties
+
+Explored different display behaviors that control how elements appear and interact in layouts:
+
+- **display: inline** – Elements remain in the same line and take only required width
+- **display: inline-block** – Elements stay inline but allow width and height adjustments
+- **display: none** – Completely removes the element from the layout
+- **visibility: hidden** – Hides the element while preserving its layout space
+
+### Flexbox Layout
+
+- **display: flex** – Enables flexible block-level layout
+- **display: inline-flex** – Enables flexible inline layout behavior
+
+Flexbox allows efficient alignment, spacing, and distribution of elements inside containers.
+
+### Grid Layout
+
+Explored grid-based layout using:
+
+- **display: grid** – Enables two-dimensional layout control using rows and columns
+
+Grid layout helps organize complex page structures with better control over positioning and spacing.
+
 
 
