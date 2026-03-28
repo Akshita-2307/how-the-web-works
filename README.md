@@ -409,5 +409,88 @@ Explored grid-based layout using:
 
 Grid layout helps organize complex page structures with better control over positioning and spacing.
 
+## Day 12 – CSS Shadows, Outline, List Styling, and Overflow Properties
+
+Explored visual styling techniques using box shadow and text shadow, learned the outline property and its differences from borders, practiced styling lists, and studied overflow behavior for handling content that exceeds container boundaries.
+
+### Box Shadow
+
+Studied the `box-shadow` property used to apply shadow effects around elements.
+
+Common attributes include:
+
+- **Horizontal offset (H-offset)** – Controls shadow position along the horizontal axis
+- **Vertical offset (V-offset)** – Controls shadow position along the vertical axis
+- **Blur radius** – Controls the softness of the shadow
+- **Spread radius** – Controls the size expansion of the shadow
+- **Color** – Defines the shadow color
+- **Inset** – Creates an inner shadow inside the element
+- **Outset** – Creates a shadow outside the element (default behavior)
+
+Box shadows help improve visual depth and element separation in layouts.
+
+### Text Shadow
+
+Studied the `text-shadow` property used to apply shadow effects to text.
+
+Attributes include:
+
+- **Horizontal offset**
+- **Vertical offset**
+- **Blur radius**
+- **Color**
+
+Text shadows improve readability and visual emphasis in headings and highlighted text.
+
+### Outline Property
+
+Learned the `outline` property used to draw a line around elements without affecting layout spacing.
+
+Outline attributes include:
+
+- **outline-width**
+- **outline-style**
+- **outline-color**
+
+### Difference Between Border and Outline
+
+Compared borders and outlines based on layout behavior:
+
+- **Border** occupies space and affects element dimensions
+- **Outline** does not affect layout size
+- Outline appears outside the border area
+- Outline is commonly used for accessibility focus indicators
+
+### List Styling
+
+Explored different techniques for customizing list appearance:
+
+- Removing default markers using `list-style: none`
+- Changing marker styles using `list-style-type`
+- Replacing markers with custom emojis
+- Replacing markers with images using `list-style-image`
+- Adjusting marker placement using `list-style-position`
+
+These techniques help improve visual presentation of navigation menus and structured content.
+
+### Overflow Properties
+
+Studied how CSS handles content that exceeds container boundaries.
+
+Common overflow values include:
+
+- **overflow: scroll** – Adds scrollbars regardless of content size
+- **overflow: auto** – Adds scrollbars only when needed
+- **overflow: clip** – Clips overflowing content without scrollbars
+- **overflow-x** – Controls horizontal overflow behavior
+- **overflow-y** – Controls vertical overflow behavior
+
+### Text Overflow Handling
+
+Learned techniques for managing text that exceeds container width:
+
+- **white-space: nowrap** – Prevents text from wrapping onto the next line
+- **text-overflow: ellipsis** – Displays truncated text with an ellipsis (...)
+
 
 
