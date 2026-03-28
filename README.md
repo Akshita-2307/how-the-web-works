@@ -490,7 +490,7 @@ Common overflow values include:
 Learned techniques for managing text that exceeds container width:
 
 - **white-space: nowrap** – Prevents text from wrapping onto the next line
-- **text-overflow: ellipsis** – Displays truncated text with an ellipsis (...)
+- **text-overflow: ellipsis** – Displays truncated text with an ellipsis
 
 
 
