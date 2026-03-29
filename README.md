@@ -531,9 +531,9 @@ can create a new positioning context for child elements, similar to positioned a
 
 Introduced CSS variables for defining reusable styling values across stylesheets.
 
--CSS variables are declared using the following syntax: --variable-name: value;
+- CSS variables are declared using the following syntax: --variable-name: value;
 
--They are accessed using:var(--variable-name)
+- They are accessed using:var(--variable-name)
 
 CSS variables improve maintainability and consistency in large stylesheets.
 
