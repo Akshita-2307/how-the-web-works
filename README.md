@@ -493,5 +493,46 @@ Learned techniques for managing text that exceeds container width:
 - **white-space: nowrap** – Prevents text from wrapping onto the next line
 - **text-overflow: ellipsis** – Displays truncated text with an ellipsis
 
+## Day 13 – CSS Positioning, Z-Index, and CSS Variables
+
+Explored CSS positioning techniques used to control element placement within layouts, studied stacking behavior using z-index, and introduced CSS variables for reusable styling values.
+
+### CSS Position Property
+
+Learned different positioning values used to control how elements are placed in a webpage layout:
+
+- **position: static** – Default positioning. Elements follow the normal document flow and are not affected by top, bottom, left, or right properties.
+- **position: relative** – Elements remain in the normal document flow but can be shifted relative to their original position.
+- **position: absolute** – Elements are positioned relative to the nearest positioned ancestor instead of the normal document flow.
+- **position: fixed** – Elements remain fixed relative to the viewport even when the page is scrolled.
+- **position: sticky** – Elements behave like relative positioning until a defined scroll threshold is reached, after which they behave like fixed elements.
+
+These positioning techniques help control layout structure and element placement more precisely.
+
+### Z-Index
+
+Studied the **z-index** property used to control stacking order of positioned elements.
+
+- Elements with higher z-index values appear above elements with lower values
+- Works only on positioned elements (relative, absolute, fixed, sticky)
+- Helps manage overlapping elements in layered layouts
+
+### Special Positioning Context Exception
+
+Learned that certain CSS properties such as:
+
+- `transform`
+- `filter`
+- `perspective`
+
+can create a new positioning context for child elements, similar to positioned ancestors. These properties affect how absolutely positioned elements behave within containers.
+
+### CSS Variables
+
+Introduced CSS variables for defining reusable styling values across stylesheets.
+
+CSS variables are declared using the following syntax:
+
+
 
 
