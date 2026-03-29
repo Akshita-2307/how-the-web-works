@@ -531,7 +531,21 @@ can create a new positioning context for child elements, similar to positioned a
 
 Introduced CSS variables for defining reusable styling values across stylesheets.
 
-CSS variables are declared using the following syntax:
+CSS variables are declared using the following syntax: --variable-name: value;
+They are accessed using:var(--variable-name)
+
+CSS variables improve maintainability and consistency in large stylesheets.
+
+### Root Selector
+
+Studied the `:root` selector used to define global CSS variables.
+
+Example usage:
+:root {
+--primary-color: blue;
+}
+
+Variables declared inside `:root` can be accessed throughout the entire document, making them useful for defining theme colors and reusable spacing values.
 
 
 
