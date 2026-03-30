@@ -19,6 +19,7 @@ This repository documents a structured journey toward becoming a full-stack web 
 - [Day 11 – CSS Sizing Units and Display Properties](#day-11--css-sizing-units-and-display-properties)
 - [Day 12 – CSS Shadows, Outline, List Styling, and Overflow Properties](#day-12--css-shadows-outline-list-styling-and-overflow-properties)
 - [Day 13 – CSS Positioning, Z-Index, and CSS Variables](#day-13--css-positioning-z-index-and-css-variables)
+- [Day 14 – CSS Media Queries and Float/Clear Properties](#day-14--css-media-queries-and-floatclear-properties)
 
 # Day 1 – How the Web Works
 
