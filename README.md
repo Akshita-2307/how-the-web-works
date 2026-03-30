@@ -581,6 +581,37 @@ Learned commonly used responsive breakpoints:
 - **max-width** – Applies styles when the viewport width is less than or equal to a specified value
 - **min-width** – Applies styles when the viewport width is greater than or equal to a specified value
 
+  
+These conditions are used to create mobile-first and responsive layouts.
+
+### CSS Float Property
+
+Studied the float property used to position elements to the left or right side of their container.
+
+Common float values:
+
+- **float: left** – Moves the element to the left side
+- **float: right** – Moves the element to the right side
+- **float: none** – Default positioning behavior
+
+
+Float is commonly used for wrapping text around images and creating simple horizontal layouts.
+
+### CSS Clear Property
+
+Learned the clear property used to control how elements behave around floated elements.
+
+Common clear values:
+
+- **clear: left** – Clears floated elements on the left side
+- **clear: right** – Clears floated elements on the right side
+- **clear: both** – Clears floated elements on both sides
+- **clear: none** – Default behavior
+
+The clear property ensures proper layout flow after floating elements.
+
+
+
 
 
 
