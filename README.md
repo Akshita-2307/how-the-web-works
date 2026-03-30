@@ -549,6 +549,41 @@ Example usage:
 
 Variables declared inside `:root` can be accessed throughout the entire document, making them useful for defining theme colors and reusable spacing values.
 
+## Day 14 – CSS Media Queries and Float/Clear Properties
+
+Explored CSS media queries for responsive design and studied float and clear properties used for controlling element positioning in layouts.
+
+### CSS Media Queries
+
+Learned how media queries allow styles to be applied conditionally based on device characteristics such as screen width, display type, or print mode. Media queries help create responsive layouts that adapt to different screen sizes.
+
+Basic syntax of a media query:
+@media media-type and (condition) {
+CSS rules;
+}
+
+
+Media queries are commonly used to adjust layout for mobile, tablet, and desktop screens.
+
+### Types of Media Queries
+
+Studied different media types supported in CSS:
+
+- **all** – Applies styles to all media devices
+- **screen** – Applies styles to computer screens, tablets, and mobile devices
+- **print** – Applies styles when the document is printed
+- **speech** – Applies styles for screen readers and speech-based devices
+
+### Width-Based Media Conditions
+
+Learned commonly used responsive breakpoints:
+
+- **max-width** – Applies styles when the viewport width is less than or equal to a specified value
+- **min-width** – Applies styles when the viewport width is greater than or equal to a specified value
+
+
+
+
 
 
 
