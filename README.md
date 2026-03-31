@@ -611,6 +611,153 @@ Common clear values:
 
 The clear property ensures proper layout flow after floating elements.
 
+## Day 15 – CSS Flexbox Layout System
+
+Today I learned the Flexbox layout model used for building responsive one-dimensional layouts in modern web development.
+
+### Flexbox Basics
+
+- display: flex converts a container into a flex container
+- Introduces flexible alignment across rows and columns
+- Helps control spacing, order, and responsiveness efficiently
+
+### Flex Axes
+
+- Main Axis → direction defined by flex-direction
+- Cross Axis → perpendicular to the main axis
+
+### flex-direction
+
+Controls layout direction of flex items:
+
+- row
+- row-reverse
+- column
+- column-reverse
+
+### Alignment Properties
+
+#### justify-content
+
+Aligns items along the main axis
+
+Values learned:
+
+- flex-start
+- flex-end
+- center
+- space-between
+- space-around
+- space-evenly
+
+#### align-items
+
+Aligns items along the cross axis
+
+Values learned:
+
+- stretch
+- flex-start
+- flex-end
+- center
+- baseline
+
+#### align-content
+
+Controls spacing between rows when items wrap
+
+Works only when flex-wrap is enabled
+
+#### align-self
+
+Overrides align-items for individual elements
+
+### justify-items
+
+Studied conceptually (not commonly used in Flexbox, mainly used in Grid layouts)
+
+### Wrapping Properties
+
+#### flex-wrap
+
+Controls whether items wrap or stay in a single row
+
+Values:
+
+- nowrap
+- wrap
+- wrap-reverse
+
+#### flex-flow
+
+Shorthand for:
+
+flex-direction + flex-wrap
+
+Example:
+
+flex-flow: row wrap;
+
+### Spacing
+
+#### gap
+
+Adds spacing between flex items without margins
+
+Example:
+
+gap: 20px;
+
+### Item Ordering
+
+#### order
+
+Controls display order of flex items
+
+Default value:
+
+order: 0
+
+Higher value moves item later in layout
+
+### Flexible Sizing
+
+#### flex-grow
+
+Controls how much an item expands
+
+Example:
+
+flex-grow: 1;
+
+#### flex-shrink
+
+Controls how much an item shrinks when space is limited
+
+Example:
+
+flex-shrink: 0;
+
+### Individual Alignment Control
+
+#### align-self
+
+Overrides container alignment for a specific flex item
+
+Example:
+
+align-self: center;
+
+### Summary
+
+Flexbox helps build:
+
+- navigation bars
+- responsive menus
+- card layouts
+- split layouts
+- header sections
+
 
 
 
