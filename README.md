@@ -21,6 +21,7 @@ This repository documents a structured journey toward becoming a full-stack web 
 - [Day 13 – CSS Positioning, Z-Index, and CSS Variables](#day-13--css-positioning-z-index-and-css-variables)
 - [Day 14 – CSS Media Queries and Float/Clear Properties](#day-14--css-media-queries-and-floatclear-properties)
 - [Day 15 – CSS Flexbox Layout System](#day-15--css-flexbox-layout-system)
+- [Day 16 – CSS Grid Layout](#day-16--css-grid-layout)
 
 # Day 1 – How the Web Works
 
