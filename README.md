@@ -759,6 +759,116 @@ Flexbox helps build:
 - split layouts
 - header sections
 
+## Day 16 – CSS Grid Layout
+
+Explored the CSS Grid layout system used for designing two-dimensional webpage layouts with precise control over rows and columns.
+
+### Introduction to CSS Grid
+
+CSS Grid is a layout system that allows elements to be arranged in both rows and columns simultaneously. It provides better control for building complex responsive layouts compared to traditional layout techniques.
+
+Grid layout is activated using-display: grid;
+
+### Grid Lines
+
+Grid lines are the horizontal and vertical dividing lines that form the structure of a grid layout. They define the boundaries of grid tracks and help position elements within the grid.
+
+### Grid Cells
+
+A grid cell is the smallest unit in a grid layout. It is the space between four grid lines and represents the intersection of a row and a column.
+
+### Grid Tracks
+
+Grid tracks are the spaces between two adjacent grid lines. These include:
+
+- Row tracks (horizontal space)
+- Column tracks (vertical space)
+
+Tracks define the structure of the grid layout.
+
+### Grid Areas
+
+A grid area is a rectangular section of the grid that spans one or more grid cells. Grid areas can be used to organize layout sections such as headers, sidebars, content areas, and footers.
+
+### Naming Grid Rows and Columns
+
+Grid lines and grid areas can be assigned custom names to improve readability and layout organization.
+
+
+Naming grid areas improves clarity when positioning layout sections.
+
+### Grid Template Properties
+
+Studied important grid template properties:
+
+- **grid-template-columns** – Defines the number and size of columns
+- **grid-template-rows** – Defines the number and size of rows
+- **grid-template-areas** – Defines named layout areas within the grid
+
+
+### Repeat Function
+
+Learned how the `repeat()` function simplifies column and row definitions.
+
+
+This creates three equal-width columns.
+
+### Fractional Units (fr)
+
+The **fr unit** represents a fraction of available grid space and helps create flexible layouts.
+
+
+This distributes space proportionally across columns.
+
+### Overlapping in Grid
+
+Explored how multiple grid items can occupy the same grid area, allowing elements to overlap when required for advanced layout design.
+
+Overlapping is controlled using grid placement properties and stacking order.
+
+### Gap Properties
+
+Studied spacing control between grid tracks using:
+
+- **row-gap** – Controls spacing between rows
+- **column-gap** – Controls spacing between columns
+- **gap** – Shorthand property for both row and column spacing
+
+
+This distributes space proportionally across columns.
+
+### Overlapping in Grid
+
+Explored how multiple grid items can occupy the same grid area, allowing elements to overlap when required for advanced layout design.
+
+Overlapping is controlled using grid placement properties and stacking order.
+
+### Gap Properties
+
+Studied spacing control between grid tracks using:
+
+- **row-gap** – Controls spacing between rows
+- **column-gap** – Controls spacing between columns
+- **gap** – Shorthand property for both row and column spacing
+
+
+### Alignment in Grid
+
+Learned alignment properties used to control positioning of grid items:
+
+- **justify-content** – Aligns the grid horizontally inside the container
+- **align-content** – Aligns the grid vertically inside the container
+- **justify-items** – Aligns items horizontally within their grid cells
+- **align-items** – Aligns items vertically within their grid cells
+
+
+
+
+
+
+
+
+
 
 
 
