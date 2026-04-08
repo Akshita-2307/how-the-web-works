@@ -862,6 +862,151 @@ Learned alignment properties used to control positioning of grid items:
 - **justify-items** – Aligns items horizontally within their grid cells
 - **align-items** – Aligns items vertically within their grid cells
 
+## Day 17 – CSS Transforms (2D and 3D Transformations)
+
+Explored CSS Transform properties used to modify the position, size, rotation, and shape of elements without affecting the document layout flow.
+
+### Introduction to CSS Transforms
+
+CSS Transforms allow elements to be visually changed using operations like rotation, scaling, translation, and skewing. These transformations can be applied in both two-dimensional (2D) and three-dimensional (3D) space.
+
+Transforms improve visual interaction and are commonly used in animations, hover effects, UI components, and modern layout styling.
+
+Transform property is applied using:
+
+transform: value;
+
+---
+
+### Types of CSS Transforms
+
+CSS transforms are mainly divided into:
+
+- 2D Transforms
+- 3D Transforms
+
+These transformations modify elements along different axes.
+
+---
+
+### Rotate Transformation
+
+The rotate() function rotates an element clockwise or counterclockwise.
+
+Rotation can be applied using different units such as:
+
+- degrees (deg)
+- turns (turn)
+
+Example:
+
+transform: rotate(45deg);
+
+Rotation can also be applied along different axes in 3D transforms:
+
+- rotateX()
+- rotateY()
+- rotateZ()
+
+Example:
+
+transform: rotateX(45deg);
+
+---
+
+### Scale Transformation
+
+The scale() function changes the size of an element.
+
+Scaling can be applied:
+
+- uniformly on both axes
+- separately on X-axis
+- separately on Y-axis
+
+Examples:
+
+transform: scale(1.5);
+transform: scaleX(2);
+transform: scaleY(0.5);
+
+Scaling increases or decreases element size proportionally.
+
+---
+
+### Skew Transformation
+
+The skew() function distorts an element along the X-axis or Y-axis.
+
+Skew values are applied in degrees.
+
+Examples:
+
+transform: skew(20deg);
+transform: skewX(15deg);
+transform: skewY(10deg);
+
+Skewing changes element angles without resizing the element.
+
+---
+
+### Translate Transformation
+
+The translate() function moves elements from their original position.
+
+Movement can occur along:
+
+- X-axis
+- Y-axis
+- Z-axis (3D transform)
+
+Examples:
+
+transform: translate(50px, 20px);
+transform: translateX(40px);
+transform: translateY(30px);
+
+Translate shifts elements visually without affecting surrounding layout elements.
+
+---
+
+### Transform Origin
+
+The transform-origin property defines the point around which a transformation occurs.
+
+By default, transformations occur from the center of the element.
+
+Example:
+
+transform-origin: top left;
+
+Changing transform origin modifies how rotation, scaling, and skewing behave.
+
+---
+
+### Applying Multiple Transforms Together
+
+Multiple transform functions can be combined in a single line using shorthand syntax.
+
+Example:
+
+transform: rotate(30deg) scale(1.2) translateX(40px);
+
+Transforms are applied from left to right in sequence.
+
+---
+
+### Summary
+
+CSS Transform properties are useful for:
+
+- rotating elements
+- resizing elements
+- shifting element positions
+- distorting shapes
+- creating interactive hover effects
+- preparing elements for animations and transitions
+
 
 
 
