@@ -887,7 +887,7 @@ Learned alignment properties used to control positioning of grid items:
 
 ---
 
-# Day 17 – CSS Transforms (2D and 3D Transformations)
+# Day 17 – CSS Transforms
 
 Explored CSS Transform properties used to modify the position, size, rotation, and shape of elements without affecting the document layout flow.
 
