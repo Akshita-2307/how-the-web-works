@@ -189,15 +189,19 @@ Examples:
 
 Enhanced the existing HTML profile page by adding a contact form, embedded media (video and audio), an iframe for external content, and an SVG graphic to practice advanced HTML elements.
 
-## Day 6 – HTML Mini Project
+---
+
+# Day 6 – HTML Mini Project
 
 Created a personal portfolio landing page using HTML. The page includes semantic structure, navigation links, lists, tables, embedded media, and a contact form to practice combining multiple HTML concepts into a single webpage.
 
-## Day 7 – CSS Application Methods and Selectors
+---
+
+# Day 7 – CSS Application Methods and Selectors
 
 Introduced CSS and explored different methods of applying styles to HTML documents.
 
-### Types of CSS
+## Types of CSS
 
 Practiced three approaches for styling webpages:
 
@@ -205,7 +209,7 @@ Practiced three approaches for styling webpages:
 - **Internal CSS** – Applied styles using the `<style>` tag within the `<head>` section of the document
 - **External CSS** – Applied styles using a separate stylesheet linked to the HTML document with the `<link>` element
 
-### CSS Selectors
+## CSS Selectors
 
 Studied commonly used selectors for targeting HTML elements:
 
@@ -216,7 +220,7 @@ Studied commonly used selectors for targeting HTML elements:
 - **Descendant selector** – Targets elements located anywhere inside another element (e.g., `div p`)
 - **Universal selector** – Targets all elements on the webpage (e.g., `*`)
 
-### Pseudo Selectors
+## Pseudo Selectors
 
 Explored pseudo selectors used to apply styles based on element states and structure:
 
@@ -226,15 +230,17 @@ Explored pseudo selectors used to apply styles based on element states and struc
 - `a:active` – Styles elements when they are clicked
 - `p:first-child` – Styles the first child element inside a parent element
 
-### Practice Work
+## Practice Work
 
 Applied inline, internal, and external CSS while styling the portfolio page and experimented with multiple selector types to control element appearance and interaction behavior.
 
-## Day 8 – CSS Box Model
+---
+
+# Day 8 – CSS Box Model
 
 Learned the structure of how spacing and sizing work in CSS using the Box Model.
 
-### CSS Box Model Components
+## CSS Box Model Components
 Every HTML element consists of:
 
 - Content → actual text/image inside the element
@@ -242,11 +248,11 @@ Every HTML element consists of:
 - Border → wraps padding and content
 - Margin → outer space between elements
 
-### Width & Height Behavior
+## Width & Height Behavior
 - Width and height apply only to the content area by default
 - Padding and border increase total element size unless box-sizing is changed
 
-### Margin Collapse
+## Margin Collapse
 Learned that vertical margins between block elements can collapse into a single margin instead of adding together.
 
 Example:
@@ -254,7 +260,7 @@ Example:
 - and element B has margin-top: 30px
 Final spacing becomes 30px (not 50px)
 
-### box-sizing Property
+## box-sizing Property
 Studied difference between:
 
 content-box (default):
@@ -265,11 +271,13 @@ border-box:
 - width includes content + padding + border
 - makes layout easier and predictable
 
-## Day 9 – CSS Fonts, Text Styling, and Colors
+---
+
+# Day 9 – CSS Fonts, Text Styling, and Colors
 
 Explored CSS font properties, text formatting techniques, and different methods of applying colors to improve the readability and visual presentation of webpages.
 
-### Font Properties
+## Font Properties
 
 Studied commonly used font-related properties:
 
@@ -281,7 +289,7 @@ Studied commonly used font-related properties:
 
 Also explored methods for importing custom fonts into webpages.
 
-### Text Formatting Properties
+## Text Formatting Properties
 
 Practiced styling and structuring text using:
 
@@ -300,7 +308,7 @@ Explored text overflow handling techniques:
 - **text-overflow** – Controls how hidden overflow text is displayed
 - **word-break** – Controls word wrapping behavior inside containers
 
-### CSS Color Systems
+## CSS Color Systems
 
 Studied different ways of applying colors in CSS:
 
@@ -311,11 +319,13 @@ Studied different ways of applying colors in CSS:
 - **HSL values** (hue, saturation, lightness)
 - **HSLA values** (HSL with transparency)
 
-## Day 10 – CSS Cascade Algorithm and Specificity
+---
+
+# Day 10 – CSS Cascade Algorithm and Specificity
 
 Studied how CSS determines which styles are applied when multiple rules target the same element. Explored the cascade algorithm, rule priority order, and specificity calculation.
 
-### CSS Cascade Algorithm
+## CSS Cascade Algorithm
 
 The cascade algorithm defines how browsers resolve conflicts between multiple CSS rules applied to the same element. The final style is determined based on:
 
@@ -324,11 +334,11 @@ The cascade algorithm defines how browsers resolve conflicts between multiple CS
 - Selector specificity
 - Position in order of appearance
 
-### Order of Appearance
+## Order of Appearance
 
 When selectors have equal specificity and importance, the rule written later in the stylesheet overrides earlier rules.
 
-### Origin of Styles
+## Origin of Styles
 
 CSS rules can come from different sources:
 
@@ -339,12 +349,12 @@ CSS rules can come from different sources:
 
 Inline styles generally have higher priority than internal and external styles.
 
-### Importance
+## Importance
 
 Declarations marked with `!important` override normal CSS rules regardless of specificity (except when another `!important` rule with higher specificity exists).
 
 
-### Specificity
+## Specificity
 
 Specificity determines which selector has higher priority when multiple selectors target the same element.
 
@@ -355,7 +365,7 @@ Specificity priority order:
 - Class selectors, attribute selectors, pseudo-classes
 - Element selectors and pseudo-elements
 
-### Specificity Calculation
+## Specificity Calculation
 
 Specificity is calculated by counting selector types in the following order:
 
@@ -366,11 +376,13 @@ Specificity is calculated by counting selector types in the following order:
 
 Selectors with higher specificity override selectors with lower specificity when conflicts occur.
 
-## Day 11 – CSS Sizing Units and Display Properties
+---
+
+# Day 11 – CSS Sizing Units and Display Properties
 
 Explored CSS sizing units and display properties used to control element dimensions and layout behavior across different screen sizes.
 
-### CSS Sizing Units
+## CSS Sizing Units
 
 Studied commonly used relative and viewport-based sizing units:
 
@@ -383,14 +395,14 @@ Studied commonly used relative and viewport-based sizing units:
 
 These units help create responsive layouts that adapt to different screen dimensions.
 
-### Minimum and Maximum Size Properties
+## Minimum and Maximum Size Properties
 
 - **min-width** – Defines the minimum allowed width of an element
 - **max-width** – Defines the maximum allowed width of an element
 - **min-height** – Defines the minimum allowed height of an element
 - **max-height** – Defines the maximum allowed height of an element
 
-### Display Properties
+## Display Properties
 
 Explored different display behaviors that control how elements appear and interact in layouts:
 
@@ -399,14 +411,14 @@ Explored different display behaviors that control how elements appear and intera
 - **display: none** – Completely removes the element from the layout
 - **visibility: hidden** – Hides the element while preserving its layout space
 
-### Flexbox Layout
+## Flexbox Layout
 
 - **display: flex** – Enables flexible block-level layout
 - **display: inline-flex** – Enables flexible inline layout behavior
 
 Flexbox allows efficient alignment, spacing, and distribution of elements inside containers.
 
-### Grid Layout
+## Grid Layout
 
 Explored grid-based layout using:
 
@@ -414,11 +426,13 @@ Explored grid-based layout using:
 
 Grid layout helps organize complex page structures with better control over positioning and spacing.
 
-## Day 12 – CSS Shadows, Outline, List Styling, and Overflow Properties
+---
+
+# Day 12 – CSS Shadows, Outline, List Styling, and Overflow Properties
 
 Explored visual styling techniques using box shadow and text shadow, learned the outline property and its differences from borders, practiced styling lists, and studied overflow behavior for handling content that exceeds container boundaries.
 
-### Box Shadow
+## Box Shadow
 
 Studied the `box-shadow` property used to apply shadow effects around elements.
 
@@ -434,7 +448,7 @@ Common attributes include:
 
 Box shadows help improve visual depth and element separation in layouts.
 
-### Text Shadow
+## Text Shadow
 
 Studied the `text-shadow` property used to apply shadow effects to text.
 
@@ -447,7 +461,7 @@ Attributes include:
 
 Text shadows improve readability and visual emphasis in headings and highlighted text.
 
-### Outline Property
+## Outline Property
 
 Learned the `outline` property used to draw a line around elements without affecting layout spacing.
 
@@ -457,7 +471,7 @@ Outline attributes include:
 - **outline-style**
 - **outline-color**
 
-### Difference Between Border and Outline
+## Difference Between Border and Outline
 
 Compared borders and outlines based on layout behavior:
 
@@ -466,7 +480,7 @@ Compared borders and outlines based on layout behavior:
 - Outline appears outside the border area
 - Outline is commonly used for accessibility focus indicators
 
-### List Styling
+## List Styling
 
 Explored different techniques for customizing list appearance:
 
@@ -478,7 +492,7 @@ Explored different techniques for customizing list appearance:
 
 These techniques help improve visual presentation of navigation menus and structured content.
 
-### Overflow Properties
+## Overflow Properties
 
 Studied how CSS handles content that exceeds container boundaries.
 
@@ -490,18 +504,20 @@ Common overflow values include:
 - **overflow-x** – Controls horizontal overflow behavior
 - **overflow-y** – Controls vertical overflow behavior
 
-### Text Overflow Handling
+## Text Overflow Handling
 
 Learned techniques for managing text that exceeds container width:
 
 - **white-space: nowrap** – Prevents text from wrapping onto the next line
 - **text-overflow: ellipsis** – Displays truncated text with an ellipsis
 
-## Day 13 – CSS Positioning, Z-Index, and CSS Variables
+---
+
+# Day 13 – CSS Positioning, Z-Index, and CSS Variables
 
 Explored CSS positioning techniques used to control element placement within layouts, studied stacking behavior using z-index, and introduced CSS variables for reusable styling values.
 
-### CSS Position Property
+## CSS Position Property
 
 Learned different positioning values used to control how elements are placed in a webpage layout:
 
@@ -513,7 +529,7 @@ Learned different positioning values used to control how elements are placed in 
 
 These positioning techniques help control layout structure and element placement more precisely.
 
-### Z-Index
+## Z-Index
 
 Studied the **z-index** property used to control stacking order of positioned elements.
 
@@ -521,7 +537,7 @@ Studied the **z-index** property used to control stacking order of positioned el
 - Works only on positioned elements (relative, absolute, fixed, sticky)
 - Helps manage overlapping elements in layered layouts
 
-### Special Positioning Context Exception
+## Special Positioning Context Exception
 
 Learned that certain CSS properties such as:
 
@@ -531,7 +547,7 @@ Learned that certain CSS properties such as:
 
 can create a new positioning context for child elements, similar to positioned ancestors. These properties affect how absolutely positioned elements behave within containers.
 
-### CSS Variables
+## CSS Variables
 
 Introduced CSS variables for defining reusable styling values across stylesheets.
 
@@ -541,7 +557,7 @@ Introduced CSS variables for defining reusable styling values across stylesheets
 
 CSS variables improve maintainability and consistency in large stylesheets.
 
-### Root Selector
+## Root Selector
 
 Studied the `:root` selector used to define global CSS variables.
 
@@ -552,11 +568,13 @@ Example usage:
 
 Variables declared inside `:root` can be accessed throughout the entire document, making them useful for defining theme colors and reusable spacing values.
 
-## Day 14 – CSS Media Queries and Float/Clear Properties
+---
+
+# Day 14 – CSS Media Queries and Float/Clear Properties
 
 Explored CSS media queries for responsive design and studied float and clear properties used for controlling element positioning in layouts.
 
-### CSS Media Queries
+## CSS Media Queries
 
 Learned how media queries allow styles to be applied conditionally based on device characteristics such as screen width, display type, or print mode. Media queries help create responsive layouts that adapt to different screen sizes.
 
@@ -568,7 +586,7 @@ CSS rules;
 
 Media queries are commonly used to adjust layout for mobile, tablet, and desktop screens.
 
-### Types of Media Queries
+## Types of Media Queries
 
 Studied different media types supported in CSS:
 
@@ -577,7 +595,7 @@ Studied different media types supported in CSS:
 - **print** – Applies styles when the document is printed
 - **speech** – Applies styles for screen readers and speech-based devices
 
-### Width-Based Media Conditions
+## Width-Based Media Conditions
 
 Learned commonly used responsive breakpoints:
 
@@ -587,7 +605,7 @@ Learned commonly used responsive breakpoints:
   
 These conditions are used to create mobile-first and responsive layouts.
 
-### CSS Float Property
+## CSS Float Property
 
 Studied the float property used to position elements to the left or right side of their container.
 
@@ -600,7 +618,7 @@ Common float values:
 
 Float is commonly used for wrapping text around images and creating simple horizontal layouts.
 
-### CSS Clear Property
+## CSS Clear Property
 
 Learned the clear property used to control how elements behave around floated elements.
 
@@ -613,22 +631,24 @@ Common clear values:
 
 The clear property ensures proper layout flow after floating elements.
 
-## Day 15 – CSS Flexbox Layout System
+---
+
+# Day 15 – CSS Flexbox Layout System
 
 Today I learned the Flexbox layout model used for building responsive one-dimensional layouts in modern web development.
 
-### Flexbox Basics
+## Flexbox Basics
 
 - display: flex converts a container into a flex container
 - Introduces flexible alignment across rows and columns
 - Helps control spacing, order, and responsiveness efficiently
 
-### Flex Axes
+## Flex Axes
 
 - Main Axis → direction defined by flex-direction
 - Cross Axis → perpendicular to the main axis
 
-### flex-direction
+## flex-direction
 
 Controls layout direction of flex items:
 
@@ -637,9 +657,9 @@ Controls layout direction of flex items:
 - column
 - column-reverse
 
-### Alignment Properties
+## Alignment Properties
 
-#### justify-content
+### justify-content
 
 Aligns items along the main axis
 
@@ -652,7 +672,7 @@ Values learned:
 - space-around
 - space-evenly
 
-#### align-items
+### align-items
 
 Aligns items along the cross axis
 
@@ -664,23 +684,23 @@ Values learned:
 - center
 - baseline
 
-#### align-content
+### align-content
 
 Controls spacing between rows when items wrap
 
 Works only when flex-wrap is enabled
 
-#### align-self
+### align-self
 
 Overrides align-items for individual elements
 
-### justify-items
+## justify-items
 
 Studied conceptually (not commonly used in Flexbox, mainly used in Grid layouts)
 
-### Wrapping Properties
+## Wrapping Properties
 
-#### flex-wrap
+### flex-wrap
 
 Controls whether items wrap or stay in a single row
 
@@ -690,7 +710,7 @@ Values:
 - wrap
 - wrap-reverse
 
-#### flex-flow
+### flex-flow
 
 Shorthand for:
 
@@ -700,9 +720,9 @@ Example:
 
 flex-flow: row wrap;
 
-### Spacing
+## Spacing
 
-#### gap
+### gap
 
 Adds spacing between flex items without margins
 
@@ -710,9 +730,9 @@ Example:
 
 gap: 20px;
 
-### Item Ordering
+## Item Ordering
 
-#### order
+### order
 
 Controls display order of flex items
 
@@ -722,9 +742,9 @@ order: 0
 
 Higher value moves item later in layout
 
-### Flexible Sizing
+## Flexible Sizing
 
-#### flex-grow
+### flex-grow
 
 Controls how much an item expands
 
@@ -732,7 +752,7 @@ Example:
 
 flex-grow: 1;
 
-#### flex-shrink
+### flex-shrink
 
 Controls how much an item shrinks when space is limited
 
@@ -740,9 +760,9 @@ Example:
 
 flex-shrink: 0;
 
-### Individual Alignment Control
+## Individual Alignment Control
 
-#### align-self
+### align-self
 
 Overrides container alignment for a specific flex item
 
@@ -750,7 +770,7 @@ Example:
 
 align-self: center;
 
-### Summary
+## Summary
 
 Flexbox helps build:
 
@@ -760,25 +780,27 @@ Flexbox helps build:
 - split layouts
 - header sections
 
-## Day 16 – CSS Grid Layout
+---
+
+# Day 16 – CSS Grid Layout
 
 Explored the CSS Grid layout system used for designing two-dimensional webpage layouts with precise control over rows and columns.
 
-### Introduction to CSS Grid
+## Introduction to CSS Grid
 
 CSS Grid is a layout system that allows elements to be arranged in both rows and columns simultaneously. It provides better control for building complex responsive layouts compared to traditional layout techniques.
 
 Grid layout is activated using-display: grid;
 
-### Grid Lines
+## Grid Lines
 
 Grid lines are the horizontal and vertical dividing lines that form the structure of a grid layout. They define the boundaries of grid tracks and help position elements within the grid.
 
-### Grid Cells
+## Grid Cells
 
 A grid cell is the smallest unit in a grid layout. It is the space between four grid lines and represents the intersection of a row and a column.
 
-### Grid Tracks
+## Grid Tracks
 
 Grid tracks are the spaces between two adjacent grid lines. These include:
 
@@ -787,18 +809,18 @@ Grid tracks are the spaces between two adjacent grid lines. These include:
 
 Tracks define the structure of the grid layout.
 
-### Grid Areas
+## Grid Areas
 
 A grid area is a rectangular section of the grid that spans one or more grid cells. Grid areas can be used to organize layout sections such as headers, sidebars, content areas, and footers.
 
-### Naming Grid Rows and Columns
+## Naming Grid Rows and Columns
 
 Grid lines and grid areas can be assigned custom names to improve readability and layout organization.
 
 
 Naming grid areas improves clarity when positioning layout sections.
 
-### Grid Template Properties
+## Grid Template Properties
 
 Studied important grid template properties:
 
@@ -807,27 +829,27 @@ Studied important grid template properties:
 - **grid-template-areas** – Defines named layout areas within the grid
 
 
-### Repeat Function
+## Repeat Function
 
 Learned how the `repeat()` function simplifies column and row definitions.
 
 
 This creates three equal-width columns.
 
-### Fractional Units (fr)
+## Fractional Units (fr)
 
 The **fr unit** represents a fraction of available grid space and helps create flexible layouts.
 
 
 This distributes space proportionally across columns.
 
-### Overlapping in Grid
+## Overlapping in Grid
 
 Explored how multiple grid items can occupy the same grid area, allowing elements to overlap when required for advanced layout design.
 
 Overlapping is controlled using grid placement properties and stacking order.
 
-### Gap Properties
+## Gap Properties
 
 Studied spacing control between grid tracks using:
 
@@ -838,13 +860,13 @@ Studied spacing control between grid tracks using:
 
 This distributes space proportionally across columns.
 
-### Overlapping in Grid
+## Overlapping in Grid
 
 Explored how multiple grid items can occupy the same grid area, allowing elements to overlap when required for advanced layout design.
 
 Overlapping is controlled using grid placement properties and stacking order.
 
-### Gap Properties
+## Gap Properties
 
 Studied spacing control between grid tracks using:
 
@@ -853,7 +875,7 @@ Studied spacing control between grid tracks using:
 - **gap** – Shorthand property for both row and column spacing
 
 
-### Alignment in Grid
+## Alignment in Grid
 
 Learned alignment properties used to control positioning of grid items:
 
@@ -864,11 +886,11 @@ Learned alignment properties used to control positioning of grid items:
 
 ---
 
-## Day 17 – CSS Transforms (2D and 3D Transformations)
+# Day 17 – CSS Transforms (2D and 3D Transformations)
 
 Explored CSS Transform properties used to modify the position, size, rotation, and shape of elements without affecting the document layout flow.
 
-### Introduction to CSS Transforms
+## Introduction to CSS Transforms
 
 CSS Transforms allow elements to be visually changed using operations like rotation, scaling, translation, and skewing. These transformations can be applied in both two-dimensional (2D) and three-dimensional (3D) space.
 
@@ -878,7 +900,7 @@ Transform property is applied using:
 
 transform: value;
 
-### Types of CSS Transforms
+## Types of CSS Transforms
 
 CSS transforms are mainly divided into:
 
@@ -887,7 +909,7 @@ CSS transforms are mainly divided into:
 
 These transformations modify elements along different axes.
 
-### Rotate Transformation
+## Rotate Transformation
 
 The rotate() function rotates an element clockwise or counterclockwise.
 
@@ -910,7 +932,7 @@ Example:
 
 transform: rotateX(45deg);
 
-### Scale Transformation
+## Scale Transformation
 
 The scale() function changes the size of an element.
 
@@ -928,7 +950,7 @@ transform: scaleY(0.5);
 
 Scaling increases or decreases element size proportionally.
 
-### Skew Transformation
+## Skew Transformation
 
 The skew() function distorts an element along the X-axis or Y-axis.
 
@@ -942,7 +964,7 @@ transform: skewY(10deg);
 
 Skewing changes element angles without resizing the element.
 
-### Translate Transformation
+## Translate Transformation
 
 The translate() function moves elements from their original position.
 
@@ -960,7 +982,7 @@ transform: translateY(30px);
 
 Translate shifts elements visually without affecting surrounding layout elements.
 
-### Transform Origin
+## Transform Origin
 
 The transform-origin property defines the point around which a transformation occurs.
 
@@ -972,7 +994,7 @@ transform-origin: top left;
 
 Changing transform origin modifies how rotation, scaling, and skewing behave.
 
-### Applying Multiple Transforms Together
+## Applying Multiple Transforms Together
 
 Multiple transform functions can be combined in a single line using shorthand syntax.
 
@@ -982,7 +1004,7 @@ transform: rotate(30deg) scale(1.2) translateX(40px);
 
 Transforms are applied from left to right in sequence.
 
-### Summary
+## Summary
 
 CSS Transform properties are useful for:
 
