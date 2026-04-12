@@ -1015,6 +1015,68 @@ CSS Transform properties are useful for:
 - distorting shapes
 - creating interactive hover effects
 - preparing elements for animations and transitions
+s
+# Day 18 – CSS Transitions
+
+Explored CSS Transition and Animation properties used to create smooth visual effects and motion in webpage elements without using JavaScript.
+
+### Introduction to CSS Transitions
+
+CSS Transitions allow elements to change property values smoothly over a specified duration instead of changing instantly.
+
+Transitions improve user experience by adding interactive visual feedback to elements such as buttons, cards, menus, and images.
+
+Transition property is applied using:
+
+transition: property duration timing-function delay;
+
+## Transition Property
+
+The transition property is a shorthand used to define which CSS property will change and how the change will occur.
+
+Example:
+
+transition: transform 0.3s ease;
+
+This applies a smooth transform effect over 0.3 seconds.
+
+## Transition Duration
+
+The transition-duration property specifies how long the transition effect takes to complete.
+
+Example:
+
+transition-duration: 0.5s;
+
+This defines that the animation runs for half a second.
+
+## Transition Timing Function
+
+The transition-timing-function controls the speed curve of the transition effect.
+
+Common values include:
+
+- ease
+- linear
+- ease-in
+- ease-out
+- ease-in-out
+
+Example:
+
+transition-timing-function: ease-in-out;
+
+This creates a smooth start and end effect.
+
+## Transition Delay
+
+The transition-delay property specifies how long to wait before starting the transition effect.
+
+Example:
+
+transition-delay: 0.2s;
+
+This delays the transition by 0.2 seconds.
 
 
 
