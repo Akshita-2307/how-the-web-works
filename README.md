@@ -23,7 +23,8 @@ This repository documents a structured journey toward becoming a full-stack web 
 - [Day 15 – CSS Flexbox Layout System](#day-15--css-flexbox-layout-system)
 - [Day 16 – CSS Grid Layout](#day-16--css-grid-layout)
 - [Day 17 – CSS Transforms](#day-17--css-transforms)
-- [Day 18 – CSS Transitions](#day-17--css-transitions)
+- [Day 18 – CSS Transitions](#day-18--css-transitions)
+- [Day 19 – CSS Object Fit and Background Properties](#day-19--css-object-fit-and-background-properties)
 
 # Day 1 – How the Web Works
 
