@@ -1016,7 +1016,7 @@ CSS Transform properties are useful for:
 - distorting shapes
 - creating interactive hover effects
 - preparing elements for animations and transitions
-s
+
 # Day 18 – CSS Transitions
 
 Explored CSS Transition and Animation properties used to create smooth visual effects and motion in webpage elements without using JavaScript.
@@ -1078,6 +1078,112 @@ Example:
 transition-delay: 0.2s;
 
 This delays the transition by 0.2 seconds.
+
+# Day 19 – CSS Object Fit and Background Properties
+
+Explored CSS properties used for controlling how images behave inside containers and how images can be applied as backgrounds with precise positioning and clipping.
+
+## Introduction to object-fit
+
+The object-fit property is used to control how images or videos resize inside their container without distorting their aspect ratio.
+
+It is commonly applied to <img> elements and replaced elements.
+
+Example:
+
+object-fit: cover;
+
+## Values of object-fit
+
+Studied different object-fit values:
+
+cover
+
+The image fills the container completely while maintaining aspect ratio. Some parts of the image may be cropped.
+
+contain
+
+The image scales to fit inside the container without cropping. Empty space may remain inside the container.
+
+fill
+
+The image stretches to fill the container completely. Aspect ratio may be distorted.
+
+scale-down
+
+The image behaves like contain or none, whichever results in a smaller image size.
+
+none
+
+The image keeps its original size without scaling.
+
+## object-position Property
+
+The object-position property defines the alignment of the image inside its container.
+
+It is useful when object-fit: cover crops parts of the image.
+
+Examples:
+
+object-position: top;
+object-position: bottom-right;
+object-position: center;
+object-position: left top;
+
+This helps control which portion of the image remains visible.
+
+## Using Images as Backgrounds
+
+Images can be applied as backgrounds to elements using the background-image property.
+
+Example:
+
+background-image: url("image.jpg");
+
+Background images are useful for hero sections, banners, and decorative layout elements.
+
+## Background Position
+
+The background-position property controls the placement of the background image inside the container.
+
+Examples:
+
+background-position: center;
+background-position: center center;
+background-position: top right;
+background-position: bottom left;
+
+This helps adjust how the image appears within the container.
+
+## Background Clip
+
+The background-clip property defines how far the background extends inside an element.
+
+Studied:
+
+background-clip: border-box;
+
+border-box
+
+The background extends up to the outer edge of the border.
+
+Other possible values include:
+
+padding-box
+content-box
+
+These control how background areas are clipped inside the element.
+
+## Summary
+
+CSS object-fit and background properties are useful for:
+
+- controlling image scaling inside containers
+- maintaining image aspect ratio
+- positioning visible image areas
+- designing hero sections and banners
+- improving layout aesthetics using background images
+- controlling background visibility with clipping
 
 
 
