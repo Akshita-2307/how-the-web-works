@@ -1186,6 +1186,125 @@ CSS object-fit and background properties are useful for:
 - improving layout aesthetics using background images
 - controlling background visibility with clipping
 
+# Day 20 – CSS Filters
+
+Explored CSS filter properties used to apply visual effects to elements such as images, backgrounds, and UI components without modifying the original image files.
+
+## Introduction to CSS Filters
+
+CSS filters allow visual adjustments like blurring, brightness control, contrast changes, grayscale conversion, and opacity effects directly through styling.
+
+Filters are commonly used for hover effects, image styling, background enhancements, and improving UI appearance.
+
+Filter property is applied using:
+
+filter: value;
+
+## Blur Filter
+
+The blur() function applies a Gaussian blur effect to an element.
+
+Blur values are usually defined in pixels (px).
+
+Example:
+
+filter: blur(5px);
+
+Higher values increase the blur intensity.
+
+## Brightness Filter
+
+The brightness() function adjusts the brightness level of an element.
+
+Values can be applied using percentages (%) or decimal numbers.
+
+Examples:
+
+filter: brightness(150%);
+filter: brightness(1.5);
+
+Values greater than 100% increase brightness, while lower values reduce brightness.
+
+## Contrast Filter
+
+The contrast() function adjusts the difference between light and dark areas of an element.
+
+Examples:
+
+filter: contrast(120%);
+filter: contrast(1.2);
+
+Higher values increase contrast, while lower values reduce contrast.
+
+## Grayscale Filter
+
+The grayscale() function converts colors into shades of gray.
+
+Example:
+
+filter: grayscale(100%);
+
+A value of 100% completely removes color from the element.
+
+## Sepia Filter
+
+The sepia() function applies a warm brown tone effect to elements, often used for vintage-style visuals.
+
+Example:
+
+filter: sepia(100%);
+
+Higher values increase the sepia intensity.
+
+## Invert Filter
+
+The invert() function reverses the colors of an element.
+
+Example:
+
+filter: invert(100%);
+
+Commonly used for dark mode effects and icon color adjustments.
+
+## Opacity Filter
+
+The opacity() function adjusts transparency levels of an element.
+
+Example:
+
+filter: opacity(50%);
+
+Lower values increase transparency.
+
+## Using Multiple Filters Together
+
+Multiple filters can be combined in a single filter property.
+
+Example:
+
+filter: blur(2px) brightness(120%) contrast(110%);
+
+Filters are applied from left to right in sequence.
+
+## Units Used in Filters
+
+CSS filters support different units depending on the function:
+
+- px → used in blur()
+- % → used in brightness(), contrast(), grayscale(), sepia(), invert(), opacity()
+- decimal values → alternative to percentage scaling
+
+## Summary
+
+CSS filters are useful for:
+
+- improving image appearance
+- creating hover effects
+- designing dark/light visual modes
+- highlighting UI elements
+- adding visual depth without editing images
+- applying multiple visual adjustments simultaneously
+
 
 
 
