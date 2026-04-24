@@ -1306,6 +1306,109 @@ CSS filters are useful for:
 - adding visual depth without editing images
 - applying multiple visual adjustments simultaneously
 
+# Day 21 – JavaScript Variables and Data Types
+
+Started learning JavaScript fundamentals by understanding variables, primitive data types, objects, and arithmetic operations.
+
+## Introduction to Variables
+
+Variables are used to store data values in a program.
+
+Variables can be declared using:
+
+- var
+- let
+- const
+
+Example:
+
+let age = 20;
+
+---
+
+## Rules for Naming Variables
+
+- Must begin with a letter, _ or $
+- Cannot begin with numbers
+- Cannot contain spaces
+- Cannot use reserved keywords
+- Variable names are case-sensitive
+
+---
+
+## Difference Between var, let and const
+
+var
+
+- Function scoped
+- Can be redeclared and updated
+
+let
+
+- Block scoped
+- Cannot be redeclared
+- Can be updated
+
+const
+
+- Block scoped
+- Cannot be redeclared or reassigned
+
+Example:
+
+const pi = 3.14;
+
+---
+
+## Primitive Data Types
+
+Primitive data types store single values.
+
+Types studied:
+
+- Number
+- String
+- Boolean
+- Undefined
+- Null
+- BigInt
+- Symbol
+
+Example:
+
+let name = "Akshita";
+let marks = 95;
+let isStudent = true;
+
+---
+
+## Objects in JavaScript
+
+Objects store multiple values in key–value pairs.
+
+Example:
+
+let student = {
+name: "Akshita",
+age: 20,
+isStudent: true
+};
+
+---
+
+## Arithmetic Operators
+
+Basic operators used for calculations:
+
+- Addition (+)
+- Subtraction (-)
+- Multiplication (*)
+- Division (/)
+- Modulus (%)
+
+Example:
+
+let sum = 10 + 5;
 
 
 
