@@ -1324,8 +1324,6 @@ Example:
 
 let age = 20;
 
----
-
 ## Rules for Naming Variables
 
 - Must begin with a letter, _ or $
@@ -1333,8 +1331,6 @@ let age = 20;
 - Cannot contain spaces
 - Cannot use reserved keywords
 - Variable names are case-sensitive
-
----
 
 ## Difference Between var, let and const
 
@@ -1358,8 +1354,6 @@ Example:
 
 const pi = 3.14;
 
----
-
 ## Primitive Data Types
 
 Primitive data types store single values.
@@ -1380,8 +1374,6 @@ let name = "Akshita";
 let marks = 95;
 let isStudent = true;
 
----
-
 ## Objects in JavaScript
 
 Objects store multiple values in key–value pairs.
@@ -1393,8 +1385,6 @@ name: "Akshita",
 age: 20,
 isStudent: true
 };
-
----
 
 ## Arithmetic Operators
 
@@ -1410,6 +1400,150 @@ Example:
 
 let sum = 10 + 5;
 
+# Day 22 – JavaScript Operators and Conditional Statements
+
+Learned different types of JavaScript operators and conditional statements used to perform calculations, comparisons, logical decisions, and control program flow.
+
+## Arithmetic Operators
+
+Arithmetic operators are used to perform mathematical calculations.
+
+Operators studied:
+
+- Addition (+)
+- Subtraction (-)
+- Multiplication (*)
+- Division (/)
+- Modulus (%)
+
+Example:
+
+let result = 10 + 5;
+
+## Assignment Operators
+
+Assignment operators assign values to variables.
+
+Operators studied:
+
+- =
+- +=
+- -=
+- *=
+- /=
+- %=
+
+Example:
+
+let x = 10;
+x += 5;
+
+## Comparison Operators
+
+Comparison operators compare two values and return true or false.
+
+Operators studied:
+
+- ==
+- ===
+- !=
+- !==
+- >
+- <
+- >=
+- <=
+
+Example:
+
+10 > 5
+
+## Logical Operators
+
+Logical operators combine multiple conditions.
+
+Operators studied:
+
+- && (AND)
+- || (OR)
+- ! (NOT)
+
+Example:
+
+true && false
+
+## Bitwise Operators
+
+Bitwise operators perform operations at the binary level.
+
+Operators studied:
+
+- & (AND)
+- | (OR)
+- ^ (XOR)
+- ~ (NOT)
+
+These are mainly used in low-level computations and optimization scenarios.
+
+## if Statement
+
+The if statement executes code when a condition is true.
+
+Example:
+
+if (age > 18) {
+console.log("Eligible");
+}
+
+## if-else Statement
+
+The if-else statement executes different code blocks depending on conditions.
+
+Example:
+
+if (age > 18) {
+console.log("Eligible");
+}
+else {
+console.log("Not Eligible");
+}
+
+## if-else if Statement
+
+Used to check multiple conditions.
+
+Example:
+
+if (marks > 90) {
+console.log("Grade A");
+}
+else if (marks > 70) {
+console.log("Grade B");
+}
+else {
+console.log("Grade C");
+}
+
+## Ternary Operator
+
+The ternary operator is a shorthand version of if-else.
+
+Syntax:
+
+condition ? value1 : value2;
+
+Example:
+
+let result = age > 18 ? "Eligible" : "Not Eligible";
+
+## Summary
+
+JavaScript operators and conditional statements help in:
+
+- performing calculations
+- comparing values
+- combining conditions logically
+- making decisions in programs
+- controlling execution flow
 
 
 
