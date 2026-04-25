@@ -26,6 +26,8 @@ This repository documents a structured journey toward becoming a full-stack web 
 - [Day 18 – CSS Transitions](#day-18--css-transitions)
 - [Day 19 – CSS Object Fit and Background Properties](#day-19--css-object-fit-and-background-properties)
 - [Day 20 – CSS Filters](#day-20--css-filters)
+- [Day 21 – JavaScript Variables and Data Types](#day-21--javascript-variables-and-data-types)
+- [Day 22 – JavaScript Operators and Conditional Statements](#day-22--javascript--operators--and--conditional--statements)
 
 # Day 1 – How the Web Works
 
