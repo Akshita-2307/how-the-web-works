@@ -1547,6 +1547,95 @@ JavaScript operators and conditional statements help in:
 - making decisions in programs
 - controlling execution flow
 
+# Day 23 – JavaScript Loops, Functions and Escape Sequence Characters
+
+Learned about JavaScript loops for repeating tasks, functions for reusable code blocks, and escape sequence characters used inside strings.
+
+## Loops in JavaScript
+
+Loops are used to execute a block of code multiple times.
+
+Types of loops studied:
+
+###for loop
+
+Used when the number of iterations is known.
+
+Example:
+
+for (let i = 0; i < 5; i++) {
+console.log(i);
+}
+
+###while loop
+
+Executes code while a condition remains true.
+
+Example:
+
+let i = 0;
+while (i < 5) {
+i++;
+}
+
+###do-while loop
+
+Executes the code at least once before checking the condition.
+
+Example:
+
+let i = 0;
+do {
+i++;
+} while (i < 5);
+
+###for-in loop
+
+Used to iterate over object properties.
+
+Example:
+
+for (let key in student) {
+console.log(key);
+}
+
+###for-of loop
+
+Used to iterate over iterable values like arrays and strings.
+
+Example:
+
+for (let value of array) {
+console.log(value);
+}
+
+## Functions in JavaScript
+
+Functions are reusable blocks of code designed to perform a specific task.
+
+Example:
+
+function greet() {
+console.log("Hello");
+}
+
+Functions help improve code readability and reusability.
+
+## Escape Sequence Characters
+
+Escape sequence characters are used inside strings to represent special formatting characters.
+
+Common escape characters studied:
+
+- \n → new line
+- \t → tab space
+- \\ → backslash
+- \" → double quote
+- \' → single quote
+
+Example:
+
+let text = "Hello\nWorld";
 
 
 
