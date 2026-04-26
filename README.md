@@ -29,6 +29,7 @@ This repository documents a structured journey toward becoming a full-stack web 
 - [Day 21 – JavaScript Variables and Data Types](#day-21--javascript-variables-and-data-types)
 - [Day 22 – JavaScript Operators and Conditional Statements](#day-22--javascript-operators-and-conditional-statements)
 - [Day 23 – JavaScript Loops Functions and Escape Sequence Characters](#day-23--javascript-loops-functions-and-escape-sequence-characters).
+- [Day 24 – JavaScript Strings and Template Literals](#day-24--javaScript-strings-and-template-literals)
 
 # Day 1 – How the Web Works
 
