@@ -28,6 +28,7 @@ This repository documents a structured journey toward becoming a full-stack web 
 - [Day 20 – CSS Filters](#day-20--css-filters)
 - [Day 21 – JavaScript Variables and Data Types](#day-21--javascript-variables-and-data-types)
 - [Day 22 – JavaScript Operators and Conditional Statements](#day-22--javascript-operators-and-conditional-statements)
+- [Day 23 – JavaScript Loops Functions and Escape Sequence Characters](#day-23--javascript-loops-functions-and-escape-sequence-characters).
 
 # Day 1 – How the Web Works
 
@@ -1547,7 +1548,7 @@ JavaScript operators and conditional statements help in:
 - making decisions in programs
 - controlling execution flow
 
-# Day 23 – JavaScript Loops, Functions and Escape Sequence Characters
+# Day 23 – JavaScript Loops Functions and Escape Sequence Characters
 
 Learned about JavaScript loops for repeating tasks, functions for reusable code blocks, and escape sequence characters used inside strings.
 
