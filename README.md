@@ -1638,6 +1638,87 @@ Example:
 
 let text = "Hello\nWorld";
 
+# Day 24 – JavaScript Strings and Template Literals
+
+Learned about string properties and methods in JavaScript used for text manipulation, along with template literals for dynamic string formatting.
+
+### Introduction to Strings
+
+Strings are used to store and manipulate text data in JavaScript.
+
+Example:
+
+let name = "Akshita";
+
+## String Length Property
+
+The length property returns the total number of characters in a string.
+
+Example:
+
+name.length
+
+## Changing Case
+
+Used methods to convert string characters:
+
+### toUpperCase()
+
+Converts string to uppercase.
+
+Example:
+
+name.toUpperCase()
+
+### toLowerCase()
+
+Converts string to lowercase.
+
+Example:
+
+name.toLowerCase()
+
+## slice() Method
+
+Extracts a portion of a string between specified indices.
+
+Example:
+
+name.slice(0, 3)
+
+## replace() Method
+
+Replaces part of a string with another value.
+
+Example:
+
+name.replace("Ak", "Ri")
+
+## concat() Method
+
+Joins two or more strings together.
+
+Example:
+
+let fullName = firstName.concat(lastName)
+
+## trim() Method
+
+Removes whitespace from the beginning and end of a string.
+
+Example:
+
+name.trim()
+
+## Template Literals
+
+Template literals allow embedding variables inside strings using backticks (`).
+
+Example:
+
+let message = `My name is ${name}`;
+
+They improve readability and support multi-line strings.
 
 
 
