@@ -1558,7 +1558,7 @@ Loops are used to execute a block of code multiple times.
 
 Types of loops studied:
 
-###for loop
+### for loop
 
 Used when the number of iterations is known.
 
@@ -1568,7 +1568,7 @@ for (let i = 0; i < 5; i++) {
 console.log(i);
 }
 
-###while loop
+### while loop
 
 Executes code while a condition remains true.
 
@@ -1579,7 +1579,7 @@ while (i < 5) {
 i++;
 }
 
-###do-while loop
+### do-while loop
 
 Executes the code at least once before checking the condition.
 
@@ -1590,7 +1590,7 @@ do {
 i++;
 } while (i < 5);
 
-###for-in loop
+### for-in loop
 
 Used to iterate over object properties.
 
@@ -1600,7 +1600,7 @@ for (let key in student) {
 console.log(key);
 }
 
-###for-of loop
+### for-of loop
 
 Used to iterate over iterable values like arrays and strings.
 
