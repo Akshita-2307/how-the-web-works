@@ -1721,6 +1721,149 @@ let message = `My name is ${name}`;
 
 They improve readability and support multi-line strings.
 
+# Day 25 – JavaScript Arrays and Array Methods
+
+Learned about arrays in JavaScript and different methods used to store, modify, and iterate through multiple values efficiently.
+
+## Introduction to Arrays
+
+Arrays are used to store multiple values in a single variable.
+
+Example:
+
+let numbers = [1, 2, 3, 4];
+
+## Array Conversion Methods
+
+### toString()
+
+Converts array elements into a string.
+
+Example:
+
+numbers.toString()
+
+### join()
+
+Joins array elements with a specified separator.
+
+Example:
+
+numbers.join("-")
+
+## Adding and Removing Elements
+
+### pop()
+
+Removes the last element from the array.
+
+### push()
+
+Adds a new element at the end of the array.
+
+### shift()
+
+Removes the first element from the array.
+
+### unshift()
+
+Adds a new element at the beginning of the array.
+
+### delete
+
+Removes an element but keeps an empty slot in the array.
+
+Example:
+
+delete numbers[1]
+
+## Combining and Modifying Arrays
+
+### concat()
+
+Combines multiple arrays into one.
+
+Example:
+
+arr1.concat(arr2)
+
+### sort()
+
+Sorts array elements alphabetically by default.
+
+### reverse()
+
+Reverses the order of array elements.
+
+### splice()
+
+Adds or removes elements at a specified position.
+
+### slice()
+
+Extracts a portion of an array without modifying the original array.
+
+## Looping Through Arrays
+
+Different ways to iterate through arrays:
+
+### for loop
+
+Iterates using index values.
+
+### for-of loop
+
+Iterates through array values directly.
+
+### for-in loop
+
+Iterates through array indices.
+
+### forEach()
+
+Executes a function once for each array element.
+
+Example:
+
+numbers.forEach(function(value) {
+console.log(value);
+});
+
+## Array Transformation Methods
+
+### map()
+
+Creates a new array by applying a function to each element.
+
+### filter()
+
+Creates a new array containing elements that satisfy a condition.
+
+### reduce()
+
+Reduces array values to a single output value.
+
+Example:
+
+numbers.reduce((sum, value) => sum + value, 0)
+
+## Array.from()
+
+Creates a new array from iterable objects like strings.
+
+Example:
+
+Array.from("hello")
+
+## Summary
+
+JavaScript arrays are useful for:
+
+- storing multiple values efficiently
+- modifying data dynamically
+- iterating through collections
+- transforming datasets using map, filter, and reduce
+
 
 
 
