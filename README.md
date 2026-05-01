@@ -1865,6 +1865,105 @@ JavaScript arrays are useful for:
 - iterating through collections
 - transforming datasets using map, filter, and reduce
 
+# Day 26 – JavaScript DOM and BOM Basics
+
+Learned about the Document Object Model (DOM), Browsing Object Model (BOM), and methods used to navigate and select elements in a webpage using JavaScript.
+
+## Document Object Model (DOM)
+
+The DOM represents the structure of an HTML document as a tree of objects that can be accessed and modified using JavaScript.
+
+It allows developers to:
+
+- select elements
+- modify content
+- change styles
+- respond to user interactions
+
+Example:
+
+document.body
+
+## Browsing Object Model (BOM)
+
+The BOM provides access to browser-related features outside the document content.
+
+Common BOM objects include:
+
+- window
+- location
+- history
+- navigator
+
+Example:
+
+window.alert("Hello")
+
+## DOM Navigation
+
+Learned how to access relationships between elements:
+
+parentNode
+
+Accesses the parent element.
+
+children
+
+Accesses all child elements of a node.
+
+nextSibling / previousSibling
+
+Access adjacent nodes in the DOM structure.
+
+## Selecting Elements
+
+Used methods to select elements from the document:
+
+### getElementById()
+
+Selects element by ID.
+
+### getElementsByClassName()
+
+Selects elements by class name.
+
+Example:
+
+document.getElementById("heading")
+
+## matches() Method
+
+Checks whether an element matches a specified CSS selector.
+
+Example:
+
+element.matches(".active")
+
+## closest() Method
+
+Finds the nearest ancestor element that matches a selector.
+
+Example:
+
+element.closest(".container")
+
+## contains() Method
+
+Checks whether one element is inside another element.
+
+Example:
+
+parent.contains(child)
+
+## Summary
+
+DOM and BOM help in:
+
+- accessing webpage elements
+- navigating element relationships
+- selecting elements dynamically
+- interacting with browser features
+- building interactive web applications
 
 
 
