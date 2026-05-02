@@ -32,6 +32,7 @@ This repository documents a structured journey toward becoming a full-stack web 
 - [Day 24 – JavaScript Strings and Template Literals](#day-24--javaScript-strings-and-template-literals)
 - [Day 25 – JavaScript Arrays and Array Methods](#day-25--javascript-arrays-and-array-methods)
 - [Day 26 – JavaScript DOM and BOM Basics](#day-26--javascript-dom-and-bom-basics)
+- [Day 27 – JavaScript DOM Manipulation and Attribute Methods](#day-27--javascript-dom-manipulation-and-attribute-methods)
 
 # Day 1 – How the Web Works
 
