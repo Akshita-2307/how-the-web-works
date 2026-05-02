@@ -1966,7 +1966,129 @@ DOM and BOM help in:
 - interacting with browser features
 - building interactive web applications
 
+# Day 27 – JavaScript DOM Manipulation and Attribute Methods
 
+Learned how to insert, modify, and remove elements using DOM properties, select elements using querySelector(), and manage HTML attributes dynamically with JavaScript.
+
+## Modifying Element Content
+
+Used different properties to change element content:
+
+### innerHTML
+
+Used to get or set HTML content inside an element.
+
+Example:
+
+element.innerHTML = "<b>Hello</b>";
+
+### innerText
+
+Used to get or set visible text content inside an element.
+
+Example:
+
+element.innerText = "Hello";
+
+### outerHTML
+
+Used to get or replace the entire element including its tags.
+
+Example:
+
+element.outerHTML = "<p>New Content</p>";
+
+### textContent
+
+Returns all text inside an element including hidden text.
+
+Example:
+
+element.textContent
+
+## Element Information Properties
+
+### tagName
+
+Returns the tag name of the element.
+
+Example:
+
+element.tagName
+
+### nodeName
+
+Returns the node name of an element.
+
+Example:
+
+element.nodeName
+
+## Selecting Elements
+
+### querySelector()
+
+Selects the first element that matches a CSS selector.
+
+Example:
+
+document.querySelector(".container")
+
+---
+
+## Attribute Methods
+
+Learned methods used to access and modify element attributes:
+
+### hasAttribute()
+
+Checks whether an element contains a specified attribute.
+
+Example:
+
+element.hasAttribute("class")
+
+### getAttribute()
+
+Returns the value of an attribute.
+
+Example:
+
+element.getAttribute("href")
+
+### setAttribute()
+
+Sets or updates an attribute value.
+
+Example:
+
+element.setAttribute("class", "active")
+
+### removeAttribute()
+
+Removes an attribute from an element.
+
+Example:
+
+element.removeAttribute("id")
+
+### attributes
+
+Returns all attributes of an element as a collection.
+
+Example:
+
+element.attributes
+
+## Summary
+
+DOM manipulation methods help in:
+
+- modifying webpage content dynamically
+- replacing elements using JavaScript
+- selecting elements using CSS selectors
+- accessing and updating HTML attributes
+- building interactive web interfaces
 
 
 
