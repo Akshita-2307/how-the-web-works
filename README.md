@@ -2112,7 +2112,7 @@ DOM manipulation methods help in:
 
 ---
 
-# Day 28 – JavaScript DOM Insertion, Classes and Events
+# Day 28 – JavaScript DOM Insertion Classes and Events
 
 Learned methods to insert and remove elements in the DOM, work with class names, and handle events including event bubbling and timing functions.
 
