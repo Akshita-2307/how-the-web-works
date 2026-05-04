@@ -1026,6 +1026,8 @@ CSS Transform properties are useful for:
 - creating interactive hover effects
 - preparing elements for animations and transitions
 
+---
+
 # Day 18 – CSS Transitions
 
 Explored CSS Transition and Animation properties used to create smooth visual effects and motion in webpage elements without using JavaScript.
@@ -1087,6 +1089,8 @@ Example:
 transition-delay: 0.2s;
 
 This delays the transition by 0.2 seconds.
+
+---
 
 # Day 19 – CSS Object Fit and Background Properties
 
@@ -1193,6 +1197,8 @@ CSS object-fit and background properties are useful for:
 - designing hero sections and banners
 - improving layout aesthetics using background images
 - controlling background visibility with clipping
+
+---
 
 # Day 20 – CSS Filters
 
@@ -1313,6 +1319,8 @@ CSS filters are useful for:
 - adding visual depth without editing images
 - applying multiple visual adjustments simultaneously
 
+---
+
 # Day 21 – JavaScript Variables and Data Types
 
 Started learning JavaScript fundamentals by understanding variables, primitive data types, objects, and arithmetic operations.
@@ -1406,6 +1414,8 @@ Basic operators used for calculations:
 Example:
 
 let sum = 10 + 5;
+
+---
 
 # Day 22 – JavaScript Operators and Conditional Statements
 
@@ -1552,6 +1562,8 @@ JavaScript operators and conditional statements help in:
 - making decisions in programs
 - controlling execution flow
 
+---
+
 # Day 23 – JavaScript Loops Functions and Escape Sequence Characters
 
 Learned about JavaScript loops for repeating tasks, functions for reusable code blocks, and escape sequence characters used inside strings.
@@ -1642,6 +1654,8 @@ Example:
 
 let text = "Hello\nWorld";
 
+---
+
 # Day 24 – JavaScript Strings and Template Literals
 
 Learned about string properties and methods in JavaScript used for text manipulation, along with template literals for dynamic string formatting.
@@ -1723,6 +1737,8 @@ Example:
 let message = `My name is ${name}`;
 
 They improve readability and support multi-line strings.
+
+---
 
 # Day 25 – JavaScript Arrays and Array Methods
 
@@ -1867,6 +1883,8 @@ JavaScript arrays are useful for:
 - iterating through collections
 - transforming datasets using map, filter, and reduce
 
+---
+
 # Day 26 – JavaScript DOM and BOM Basics
 
 Learned about the Document Object Model (DOM), Browsing Object Model (BOM), and methods used to navigate and select elements in a webpage using JavaScript.
@@ -1967,15 +1985,17 @@ DOM and BOM help in:
 - interacting with browser features
 - building interactive web applications
 
+---
+
 # Day 27 – JavaScript DOM Manipulation and Attribute Methods
 
 Learned how to insert, modify, and remove elements using DOM properties, select elements using querySelector(), and manage HTML attributes dynamically with JavaScript.
 
-## Modifying Element Content
+# Modifying Element Content
 
 Used different properties to change element content:
 
-### innerHTML
+## innerHTML
 
 Used to get or set HTML content inside an element.
 
@@ -1983,7 +2003,7 @@ Example:
 
 element.innerHTML = "<b>Hello</b>";
 
-### innerText
+## innerText
 
 Used to get or set visible text content inside an element.
 
@@ -1991,7 +2011,7 @@ Example:
 
 element.innerText = "Hello";
 
-### outerHTML
+## outerHTML
 
 Used to get or replace the entire element including its tags.
 
@@ -1999,7 +2019,7 @@ Example:
 
 element.outerHTML = "<p>New Content</p>";
 
-### textContent
+## textContent
 
 Returns all text inside an element including hidden text.
 
@@ -2007,9 +2027,9 @@ Example:
 
 element.textContent
 
-## Element Information Properties
+# Element Information Properties
 
-### tagName
+## tagName
 
 Returns the tag name of the element.
 
@@ -2017,7 +2037,7 @@ Example:
 
 element.tagName
 
-### nodeName
+## nodeName
 
 Returns the node name of an element.
 
@@ -2025,9 +2045,9 @@ Example:
 
 element.nodeName
 
-## Selecting Elements
+# Selecting Elements
 
-### querySelector()
+## querySelector()
 
 Selects the first element that matches a CSS selector.
 
@@ -2035,13 +2055,11 @@ Example:
 
 document.querySelector(".container")
 
----
-
-## Attribute Methods
+# Attribute Methods
 
 Learned methods used to access and modify element attributes:
 
-### hasAttribute()
+## hasAttribute()
 
 Checks whether an element contains a specified attribute.
 
@@ -2049,7 +2067,7 @@ Example:
 
 element.hasAttribute("class")
 
-### getAttribute()
+## getAttribute()
 
 Returns the value of an attribute.
 
@@ -2057,7 +2075,7 @@ Example:
 
 element.getAttribute("href")
 
-### setAttribute()
+## setAttribute()
 
 Sets or updates an attribute value.
 
@@ -2065,7 +2083,7 @@ Example:
 
 element.setAttribute("class", "active")
 
-### removeAttribute()
+## removeAttribute()
 
 Removes an attribute from an element.
 
@@ -2073,7 +2091,7 @@ Example:
 
 element.removeAttribute("id")
 
-### attributes
+## attributes
 
 Returns all attributes of an element as a collection.
 
@@ -2081,7 +2099,7 @@ Example:
 
 element.attributes
 
-## Summary
+# Summary
 
 DOM manipulation methods help in:
 
@@ -2091,6 +2109,7 @@ DOM manipulation methods help in:
 - accessing and updating HTML attributes
 - building interactive web interfaces
 
+---
 
 
 
