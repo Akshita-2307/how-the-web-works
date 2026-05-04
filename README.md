@@ -1991,11 +1991,11 @@ DOM and BOM help in:
 
 Learned how to insert, modify, and remove elements using DOM properties, select elements using querySelector(), and manage HTML attributes dynamically with JavaScript.
 
-# Modifying Element Content
+## Modifying Element Content
 
 Used different properties to change element content:
 
-## innerHTML
+### innerHTML
 
 Used to get or set HTML content inside an element.
 
@@ -2003,7 +2003,7 @@ Example:
 
 element.innerHTML = "<b>Hello</b>";
 
-## innerText
+### innerText
 
 Used to get or set visible text content inside an element.
 
@@ -2011,7 +2011,7 @@ Example:
 
 element.innerText = "Hello";
 
-## outerHTML
+### outerHTML
 
 Used to get or replace the entire element including its tags.
 
@@ -2019,7 +2019,7 @@ Example:
 
 element.outerHTML = "<p>New Content</p>";
 
-## textContent
+### textContent
 
 Returns all text inside an element including hidden text.
 
@@ -2027,9 +2027,9 @@ Example:
 
 element.textContent
 
-# Element Information Properties
+## Element Information Properties
 
-## tagName
+### tagName
 
 Returns the tag name of the element.
 
@@ -2037,7 +2037,7 @@ Example:
 
 element.tagName
 
-## nodeName
+### nodeName
 
 Returns the node name of an element.
 
@@ -2045,9 +2045,9 @@ Example:
 
 element.nodeName
 
-# Selecting Elements
+## Selecting Elements
 
-## querySelector()
+### querySelector()
 
 Selects the first element that matches a CSS selector.
 
@@ -2055,11 +2055,11 @@ Example:
 
 document.querySelector(".container")
 
-# Attribute Methods
+## Attribute Methods
 
 Learned methods used to access and modify element attributes:
 
-## hasAttribute()
+### hasAttribute()
 
 Checks whether an element contains a specified attribute.
 
@@ -2067,7 +2067,7 @@ Example:
 
 element.hasAttribute("class")
 
-## getAttribute()
+### getAttribute()
 
 Returns the value of an attribute.
 
@@ -2075,7 +2075,7 @@ Example:
 
 element.getAttribute("href")
 
-## setAttribute()
+### setAttribute()
 
 Sets or updates an attribute value.
 
@@ -2083,7 +2083,7 @@ Example:
 
 element.setAttribute("class", "active")
 
-## removeAttribute()
+### removeAttribute()
 
 Removes an attribute from an element.
 
@@ -2091,7 +2091,7 @@ Example:
 
 element.removeAttribute("id")
 
-## attributes
+### attributes
 
 Returns all attributes of an element as a collection.
 
@@ -2099,7 +2099,7 @@ Example:
 
 element.attributes
 
-# Summary
+## Summary
 
 DOM manipulation methods help in:
 
@@ -2111,6 +2111,116 @@ DOM manipulation methods help in:
 
 ---
 
+# Day 28 – JavaScript DOM Insertion, Classes and Events
+
+Learned methods to insert and remove elements in the DOM, work with class names, and handle events including event bubbling and timing functions.
+
+## Inserting Elements
+
+Studied different DOM insertion methods:
+
+### append()
+
+Adds an element at the end of a node.
+
+### prepend()
+
+Adds an element at the beginning of a node.
+
+### before()
+
+Inserts an element before a node.
+
+### after()
+
+Inserts an element after a node.
+
+### replaceWith()
+
+Replaces an element with another element.
+
+## insertAdjacent Methods
+
+Used to insert HTML, text, or elements at specific positions:
+
+- beforebegin
+- afterbegin
+- beforeend
+- afterend
+
+Example:
+
+element.insertAdjacentHTML("beforeend", "<p>Text</p>");
+
+## Removing Elements
+
+Elements can be removed from the DOM using:
+
+### remove()
+
+Example:
+
+element.remove();
+
+## Working with Classes
+
+### className
+
+Returns or sets the class of an element.
+
+### classList
+
+Used to add, remove, or toggle classes.
+
+Example:
+
+element.classList.add("active");
+
+## Events in JavaScript
+
+Events are actions that occur in the browser, such as clicks, input, or mouse movement.
+
+Example:
+
+element.onclick = function() {
+console.log("Clicked");
+}
+
+---
+
+## Event Bubbling
+
+Event bubbling is a process where an event starts from the target element and propagates upward to its parent elements.
+
+## setTimeout()
+
+Executes a function after a specified delay.
+
+Example:
+
+setTimeout(() => {
+console.log("Hello");
+}, 2000);
+
+## setInterval()
+
+Executes a function repeatedly after a fixed time interval.
+
+Example:
+
+setInterval(() => {
+console.log("Running");
+}, 1000);
+
+## Summary
+
+These concepts help in:
+
+- dynamically inserting and removing elements
+- managing classes for styling and interaction
+- handling user events
+- controlling execution timing using setTimeout and setInterval
+- building interactive and dynamic web applications
 
 
 
