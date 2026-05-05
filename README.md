@@ -2222,6 +2222,119 @@ These concepts help in:
 - handling user events
 - controlling execution timing using setTimeout and setInterval
 - building interactive and dynamic web applications
+  
+---
+
+# Day 29 – JavaScript Async Programming and Error Handling
+
+Learned about asynchronous programming in JavaScript using callbacks, promises, async/await, Fetch API, and error handling using try-catch and finally.
+
+## Callbacks
+
+A callback is a function passed as an argument to another function and executed later.
+
+Example:
+
+function greet(name, callback) {
+  console.log("Hello " + name);
+  callback();
+}
+
+## Promises
+
+Promises represent the eventual completion or failure of an asynchronous operation.
+
+States of a promise:
+
+- pending
+- fulfilled
+- rejected
+
+Example:
+
+let promise = new Promise((resolve, reject) => {
+  resolve("Success");
+});
+
+## async and await
+
+Used to handle asynchronous code in a cleaner and readable way.
+
+async
+
+Declares a function that returns a promise.
+
+await
+
+Waits for a promise to resolve before continuing execution.
+
+Example:
+
+async function getData() {
+  let result = await fetch(url);
+}
+
+## Fetch API
+
+Used to make network requests and retrieve data from APIs.
+
+Example:
+
+fetch(url)
+  .then(response => response.json())
+  .then(data => console.log(data));
+
+## Error Handling (try-catch)
+
+Used to handle runtime errors in JavaScript.
+
+try
+
+Wraps code that may produce an error.
+
+catch
+
+Handles the error if it occurs.
+
+Example:
+
+try {
+  let x = y;
+} catch (error) {
+  console.log(error);
+}
+
+## throw Keyword
+
+Used to manually create and throw an error.
+
+Example:
+
+throw new Error("Something went wrong");
+
+## finally Clause
+
+The finally block executes regardless of whether an error occurs or not.
+
+Example:
+
+try {
+  // code
+} catch (error) {
+  // handle error
+} finally {
+  console.log("Always runs");
+}
+
+## Summary
+
+These concepts help in:
+
+- handling asynchronous operations
+- managing API requests using Fetch
+- writing cleaner async code using async/await
+- handling errors gracefully
+- improving application reliability
 
 
 
