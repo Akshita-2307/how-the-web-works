@@ -34,6 +34,7 @@ This repository documents a structured journey toward becoming a full-stack web 
 - [Day 26 – JavaScript DOM and BOM Basics](#day-26--javascript-dom-and-bom-basics)
 - [Day 27 – JavaScript DOM Manipulation and Attribute Methods](#day-27--javascript-dom-manipulation-and-attribute-methods)
 - [Day 28 – JavaScript DOM Insertion Classes and Events](#day-28--javascript-dom-insertion-classes-and-events)
+- [Day 29 – JavaScript Async Programming and Error Handling](#day-29--javascript-async-programming-and-error-handling)
 
 # Day 1 – How the Web Works
 
